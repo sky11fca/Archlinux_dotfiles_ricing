@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export DOTFILES="$HOME/dotfiles"
+
 alias ls='eza --color=auto'
 alias grep='grep --color=auto'
 
@@ -17,6 +19,7 @@ alias fzf='fzf --border=sharp --preview="cat {}"'
 alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
 alias music='mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display '
 alias doc='nvim $(find ~/Documents/ -type f | fzf)'
+alias dotf='cd $DOTFILES'
 
 PS1="\[\033[0;34m\]╔[\[\033[1;36m\]󰣇\[\033[0;34m\]]═[\[\033[1;34m\]\u\[\033[0;37m\]@\[\033[1;36m\]\h\[\033[0;34m\]]═[\[\033[35m\]\w\[\033[34m\]]\n\[\033[36m\]╚[\$]═>\[\033[0;37m\] "
 PS2="═[+]"
