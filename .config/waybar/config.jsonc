@@ -7,35 +7,33 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "custom/sep",
         "hyprland/window"
 	//"custom/sep",
 	//"cava"
     ],
     "modules-center": [
 //        "custom/sep",
-        "cpu",
-        "custom/sep",
-        "temperature",
-        "custom/sep",
-        "clock",
-        "custom/sep",
-        "memory",
-        "custom/sep",
-        "disk"
+        "hyprland/workspaces"
 //        "custom/sep"
 //	"disk2",
 //	"custom/sep"
     ],
     "modules-right": [
-        "custom/pacman",
+        "cpu",
+        "custom/sep",
+	"temperature",
+        "custom/sep",
+	"memory",
+        "custom/sep",
+	"disk",
 //        "custom/sep",
 //        "pulseaudio",
         "custom/sep",
         "backlight",
         "custom/sep",
-        "battery",
+        "clock",
+        "custom/sep",
+	"battery",
         "custom/sep",
         "tray"
     ],

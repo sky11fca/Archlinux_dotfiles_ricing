@@ -1,24 +1,108 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+	"type": "kitty-direct",
+	"source": "~/Pictures/Shadow_Queen_Laugh.png"
+//	"height": 18
+  },
+  "display":{
+	"separator": " "
+  },
+
   "modules": [
-    "title",
-    "separator",
-    "os",
-    "host",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
-    "display",
-    "terminal",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "battery",
+    //"title",
+    //"separator",
+    
+    {
+	    "type": "custom" 
+    },
+    {
+	    "type": "os",
+	    "key": " OS"
+    },
+
+    {
+	    "type": "host",
+	    "key": "󰌢 Hostname"
+    },
+
+    {
+	    "type": "kernel",
+	    "key": " Kernel"
+    },
+
+    {
+	    "type": "uptime",
+	    "key": " Uptime"
+    },
+
+    {
+	    "type": "packages",
+	    "key": "󰏖 Packages"
+    },
+
+    {
+	    "type": "shell",
+	    "key": " Shell"
+    },
+
+    {
+	    "type": "display",
+	    "key": "󰍹 Display"
+    },
+
+    {
+	    "type": "terminal",
+	    "key": " Terminal"
+    },
+
+    {
+	    "type": "cpu",
+	    "key": " CPU"
+    },
+
+    {
+	    "type": "gpu",
+	    "key": "󰹑 GPU"
+    },
+
+    {
+	    "type": "memory",
+	    "key": " Memory"
+    },
+
+    {
+	    "type": "swap",
+	    "key": " Swap"
+    },
+
+    {
+	    "type": "disk",
+	    "key": " Disks"
+    },
+
+    {
+	    "type": "battery",
+	    "key": " Battery"
+    },
+
+
+//    "host",
+//    "kernel",
+//    "uptime",
+//    "packages",
+//    "shell",
+//    "display",
+//    "terminal",
+//    "cpu",
+//    "gpu",
+//    "memory",
+//    "swap",
+//    "disk",
+//    "battery",
     "poweradapter",
     "break",
-    "colors"
+    "colors",
+    "break"
   ]
 }

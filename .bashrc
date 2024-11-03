@@ -9,7 +9,7 @@ export DOTFILES="$HOME/dotfiles"
 
 alias ls='eza --color=auto'
 alias grep='grep --color=auto'
-
+alias cat='bat'
 alias v='nvim'
 alias nf='fastfetch'
 alias ll='eza -l'
