@@ -5,15 +5,18 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+#[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
+
 export DOTFILES="$HOME/dotfiles"
 
 alias ls='eza --color=auto'
 alias grep='grep --color=auto'
 alias cat='bat'
+alias cd='z'
 alias v='nvim'
 alias nf='fastfetch'
-alias ll='eza -l'
-alias l='eza -la'
+alias ll='eza -lah'
+#alias l='eza -la'
 alias lt='eza -lT'
 alias fzf='fzf --border=sharp --preview="cat {}"'
 alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
@@ -33,3 +36,6 @@ RANGER_DEVICONS_SEPARATOR=" ~> "
 export PATH="$PATH:/home/skullface/.local/bin:$HOME/bin"
 
 #export QT_QPA_PLATFORMTHEME=qt6ct
+
+eval "$(fzf --bash)"
+eval "$(zoxide init bash)"
