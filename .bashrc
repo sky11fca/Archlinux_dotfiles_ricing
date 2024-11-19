@@ -32,6 +32,7 @@ export MANPAGER='nvim +Man!'
 
 RANGER_DEVICONS_SEPARATOR=" ~> "
 
+
 # Created by `pipx` on 2024-08-26 06:23:14
 export PATH="$PATH:/home/skullface/.local/bin:$HOME/bin"
 
@@ -39,3 +40,5 @@ export PATH="$PATH:/home/skullface/.local/bin:$HOME/bin"
 
 eval "$(fzf --bash)"
 eval "$(zoxide init bash)"
+
+export PATH=$PATH:/home/skullface/.spicetify
