@@ -1,0 +1,18 @@
+# This is an example for icewm 3.6.0 menu definition file.
+# It will be installed as /usr/share/icewm/menu.
+# Place your variants in /etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog "xterm" xterm xterm
+prog urxvt xterm urxvt -bg black -cr green -fg white -C -sl 500
+prog gedit fte gedit
+prog NEdit nedit nedit
+prog Librewolf librewolf librewolf
+prog Xeyes xeyes xeyes
+prog FileExplorer thunar thunar
+prog VSCode code code
+prog Hexchat xchat hexchat
+prog Gimp gimp gimp
+includeprog icewm-menu-fdo --sep-before --no-sep-others
+menufile Programs folder programs
+menufile Tool_bar folder toolbar

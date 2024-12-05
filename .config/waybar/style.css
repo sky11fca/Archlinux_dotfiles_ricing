@@ -5,38 +5,38 @@
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 255, 225,0);
+    background-color: rgba(0, 0, 0, 255);
+    border: 5px solid rgba(0, 255, 225, 0);
     color: #00ffff;
     margin-left: 5px;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
-.modules-left{
+/*.modules-left{
 	background-color: rgba(0,0,0,255);
-	border: 2px solid rgba(0, 255, 225,255);
+	border: 0px solid rgba(0, 255, 225,255);
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-right: 10px;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 .modules-center{
 	background-color: rgba(0,0,0,255);
-	border: 2px solid rgba(0, 255, 225,255);
+	border: 0px solid rgba(0, 255, 225,255);
 	margin-top: 10px;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 .modules-right{
 	background-color: rgba(0,0,0,255);
-	border: 2px solid rgba(0, 255, 225,255);
+	border: 0px solid rgba(0, 255, 225,255);
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left:10px;
-	border-radius: 5px;
-}
+	border-radius: 0px;
+}*/
 
 window#waybar.hidden {
     opacity: 0.2;
@@ -367,9 +367,9 @@ label:focus {
 }
 
 #custom-sep{
-	font-size: 20px
+	/*font-size: 20px*/
 }
-
+/*
 #custom-sep1{
     color: #00ffff;
     font-size: 35px
@@ -396,4 +396,4 @@ label:focus {
     color: #000000;
     background: #00ffff;
     font-size: 35px
-}
+}*/
