@@ -1,22 +1,22 @@
 # Created by newuser for 5.9
-
-alias ls='eza --color=auto'
+#(cat ~/.cache/wal/sequences &)
+alias ls='eza --color=auto --icons=always'
 alias grep='rg --color=auto'
 alias cat='bat'
 alias cd='z'
 alias v='nvim'
 alias neofetch='fastfetch'
-alias ll='eza -lah'
+alias ll='eza -lah --icons=always --git'
 alias f='"$(fzf)"'
 alias swaylock='swaylock --color #000000'
 #alias l='eza -la'
-alias lt='eza -lT'
+alias lt='eza -lT --icons=always'
 alias fzf='fzf --border=sharp --preview="cat {}"'
 alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
 alias music='mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display '
 alias doc='nvim $(find ~/Documents/ -type f | fzf)'
 alias dotf='cd $DOTFILES'
-
+alias sudo='doas'
 alias notes='nvim ~/Notes/'
 #RPROMPT='%F{blue}λ%f'
 #RPROMPT="%F{blue}[%D %t]%f"
@@ -39,7 +39,6 @@ setopt appendhistory
 
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
-
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

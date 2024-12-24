@@ -1,7 +1,6 @@
 --local vim = vim
 --local Plug = vim.fn['plug#']
 
-
 --vim.call('plug#begin')
 
 --	Plug('vim-airline/vim-airline')
@@ -158,8 +157,75 @@ require("lazy").setup({
         		})
 		end
 
+	},
+	{
+    		"williamboman/mason.nvim",
+    		"williamboman/mason-lspconfig.nvim",
+    		"neovim/nvim-lspconfig",
+	},
+	{
+		"dylanaraps/wal.vim"
+	},
+	{
+		'L3MON4D3/LuaSnip',
+		'saadparwaiz1/cmp_luasnip',
+		"hrsh7th/nvim-cmp",
+
+		config = function()
+			local cmp = require'cmp'
+
+  			cmp.setup({
+    				snippet = {
+      -- REQUIRED - you must specify a snippet engine
+      				expand = function(args)
+        				vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+        				require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
+        -- require('snippy').expand_snippet(args.body) -- For `snippy` users.
+        -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
+        -- vim.snippet.expand(args.body) -- For native neovim snippets (Neovim v0.10+)
+      				end,
+    				},
+    			window = {
+      				completion = cmp.config.window.bordered(),
+      				documentation = cmp.config.window.bordered(),
+    			},
+    			mapping = cmp.mapping.preset.insert({
+      				['<C-b>'] = cmp.mapping.scroll_docs(-4),
+      				['<C-f>'] = cmp.mapping.scroll_docs(4),
+      				['<C-Space>'] = cmp.mapping.complete(),
+      				['<C-e>'] = cmp.mapping.abort(),
+      				['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    			}),
+    			sources = cmp.config.sources({
+      				{ name = 'nvim_lsp' },
+      				{ name = 'vsnip' }, -- For vsnip users.
+      -- { name = 'luasnip' }, -- For luasnip users.
+      -- { name = 'ultisnips' }, -- For ultisnips users.
+      -- { name = 'snippy' }, -- For snippy users.
+    			}, {
+      				{ name = 'buffer' },
+    			})
+  		})
+		end
+
+
+
 	}
 
 })
 
 require('lualine').setup()
+require('mason').setup()
+require('mason-lspconfig').setup{
+	ensure_installed={"lua_ls", "clangd", "bashls", "dockerls", "html", "java_language_server", "ts_ls", "texlab", "sqlls"},
+}
+
+require('lspconfig').lua_ls.setup{}
+require('lspconfig').clangd.setup{}
+require('lspconfig').bashls.setup{}
+require('lspconfig').dockerls.setup{}
+require('lspconfig').html.setup{}
+require('lspconfig').java_language_server.setup{}
+require('lspconfig').ts_ls.setup{}
+require('lspconfig').texlab.setup{}
+require('lspconfig').sqlls.setup{}
