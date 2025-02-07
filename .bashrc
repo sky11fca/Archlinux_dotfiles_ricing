@@ -9,13 +9,13 @@
 
 export DOTFILES="$HOME/dotfiles"
 
-alias ls='eza --color=auto --icons=always'
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias cat='bat'
-alias cd='z'
+alias cat='cat'
+alias cd='cd'
 alias v='nvim'
-alias neofetch='fastfetch --logo windows'
-alias ll='eza -lah --icons=always'
+alias neofetch='fastfetch'
+alias ll='ls -lah'
 alias sx='XDG_SESSION_TYPE=x11 startx'
 #alias l='eza -la'
 alias lt='eza -lT --icons=always'
@@ -43,4 +43,4 @@ export QT_QPA_PLATFORMTHEME=kde
 eval "$(fzf --bash)"
 eval "$(zoxide init bash)"
 
-export PATH=$PATH:/home/skullface/.spicetify
+export PATH=$PATH:/home/skullface/.spicetify:~/.emacs.d/bin

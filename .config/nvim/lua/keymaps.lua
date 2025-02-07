@@ -1,5 +1,5 @@
 --local keymap = vim.api.nvim_set_keymap
-
+mapleader='<Space>'
 vim.keymap.set("i", "{", "{}<Esc>ha", opts)
 vim.keymap.set("i", "[", "[]<Esc>ha", opts)
 vim.keymap.set("i", "(", "()<Esc>ha", opts)
@@ -11,10 +11,10 @@ vim.keymap.set("i", "(", "()<Esc>ha", opts)
 --vim.keymap.set("n", "<C-n>", ":NERDTree<CR>", opts)
 vim.keymap.set("n", "<C-e>", ":Neotree filesystem left toggle<CR>", opts)
 
-vim.keymap.set("n", "<C-h>", ":TmuxNavigateRight<CR>", opts)
-vim.keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", opts)
-vim.keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", opts)
-vim.keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", opts)
+--vim.keymap.set("n", "<C-h>", ":TmuxNavigateRight<CR>", opts)
+--vim.keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", opts)
+--vim.keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", opts)
+--vim.keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", opts)
 --vim.keymap.set("n", "<space>", "<leader>", opts)
 --vim.keymap.set("n", "<C-h>", "<C-w><C-h>", opts)
 --vim.keymap.set("n", "<C-j>", "<C-w><C-j>", opts)
@@ -36,8 +36,6 @@ vim.keymap.set("i", "<down>", "<nop>", opts)
 
 vim.keymap.set("n", "q:", "<nop>", opts)
 
-vim.g.mapleader=" "
-
 vim.keymap.set("i", "<M-h>", "<left>", opts)
 vim.keymap.set("i", "<M-j>", "<down>", opts)
 vim.keymap.set("i", "<M-k>", "<up>", opts)
@@ -51,7 +49,8 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fg', builtin.grep_string, {})
 --vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
-vim.keymap.set('n', 'c', builtin.commands, { desc = 'Telescope help tags' })
+vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', ':', '<cmd>FineCmdline<CR>', { noremap = true })
 vim.keymap.set('n', '<leader>fb', ':Telescope file_browser<CR>', opts)
 
 vim.keymap.set('n', '<C-0>', ':b0<CR>', opts)
