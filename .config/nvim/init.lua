@@ -17,6 +17,6 @@ vim.opt.splitright=true
 --vim.opt['default-terminal']="screen-256color"
 --vim.opt['default-overrides']=",*256col*:RGB"
 
---vim.cmd[[colorscheme solarized]]
+vim.cmd[[colorscheme gruvbox]]
 
 --require('notify')('Welcome to the new era: ERA3')
