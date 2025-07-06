@@ -1,3 +1,7 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+
+
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font;
@@ -5,38 +9,37 @@
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 255);
-    border: 5px solid rgba(0, 255, 225, 0);
-    color: #00ffff;
-    margin-left: 5px;
+	padding-left: 5px;
+    background-color: rgba(0,0,0,0);
     transition-property: background-color;
     transition-duration: .5s;
 }
 
-/*.modules-left{
-	background-color: rgba(0,0,0,255);
-	border: 0px solid rgba(0, 255, 225,255);
-	margin-left: 10px;
-	margin-top: 10px;
+.modules-left{
+	background-color: @background;
+	border: 3px solid @foreground;
+	padding: 5px;
+	margin-left: 30px;
+	margin-top: 30px;
 	margin-right: 10px;
 	border-radius: 0px;
 }
 
 .modules-center{
-	background-color: rgba(0,0,0,255);
-	border: 0px solid rgba(0, 255, 225,255);
-	margin-top: 10px;
+	background-color: @background;
+	border: 3px solid @foreground;
+	margin-top: 30px;
 	border-radius: 0px;
 }
 
 .modules-right{
-	background-color: rgba(0,0,0,255);
-	border: 0px solid rgba(0, 255, 225,255);
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-left:10px;
+	background-color: @background;
+	border: 3px solid @foreground;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-left: 10px;
 	border-radius: 0px;
-}*/
+}
 
 window#waybar.hidden {
     opacity: 0.2;
@@ -80,12 +83,12 @@ button:hover {
 }
 
 #workspaces button {
-	color: #00ffff;
+	color: @foreground;
     padding: 0 3px;
 }
 
 #workspaces button:hover {
-    color: rgba(0, 255, 255, 0.3)
+    color: @cursor
 }
 
 #workspaces button.focused {
@@ -138,14 +141,6 @@ button:hover {
     margin-right: 0;
 }
 
-#clock {
-	color: #00ffff
-}
-
-#battery {
-	color: #00ffff
-}
-
 #battery.charging, #battery.plugged {
     color: #ff00ff;
 }
@@ -159,7 +154,7 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    color: #ff00ff;
+    color: @color2;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -190,46 +185,6 @@ label:focus {
     background-color: #000000;
 }
 
-#cpu {
-	color: #00ffff;
-}
-
-#memory {
-	color: #00ffff;
-}
-
-#disk {
-	color: #00ffff;
-}
-
-#backlight {
-	color: #00ffff;
-}
-
-#network {
-	color: #00ffff;
-}
-
-#network.disconnected {
-}
-
-#pulseaudio {
-	color: #00ffff;
-}
-
-#pulseaudio.muted {
-    color: #ff00ff;
-}
-
-#wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
-}
-
-#wireplumber.muted {
-    background-color: #f53c3c;
-}
-
 #custom-media {
     background-color: #66cc99;
     color: #2a5c45;
@@ -242,10 +197,6 @@ label:focus {
 
 #custom-media.custom-vlc {
     background-color: #ffa000;
-}
-
-#temperature {
-	color: #00ffff;
 }
 
 #temperature.critical {
@@ -263,12 +214,6 @@ label:focus {
     -gtk-icon-effect: highlight;
 }
 
-#idle_inhibitor {
-}
-
-#idle_inhibitor.activated {
-    color: #ff00ff;
-}
 
 #mpd {
     background-color: #66cc99;

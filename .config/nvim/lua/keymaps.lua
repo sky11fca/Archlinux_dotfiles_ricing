@@ -35,6 +35,7 @@ vim.keymap.set("i", "<up>", ":bd<CR>", opts)
 vim.keymap.set("i", "<down>", "<nop>", opts)
 
 vim.keymap.set("n", "q:", "<nop>", opts)
+vim.keymap.set("n", "/:", "<nop>", opts)
 
 vim.keymap.set("i", "<M-h>", "<left>", opts)
 vim.keymap.set("i", "<M-j>", "<down>", opts)

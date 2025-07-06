@@ -1,0 +1,457 @@
+clear
+ll
+ls
+clear
+all
+clear
+ls -la
+clear
+mkdir dotfiles/.config/alacritty
+mv .config/alacritty/alacritty.toml dotfiles/.config/alacritty/
+nvim dotfiles/.config/alacritty/alacritty.toml
+cd dotfiles/
+stow .
+exit
+v .config/alacritty/alacritty.toml
+nvim .config/alacritty/alacritty.toml
+clear
+ls
+clear
+neofetch
+fastfetch
+clear
+ls
+ls | where type == dir
+clear
+ls --all
+clear
+cat Documents/MurderDrones_Iceberg.txt
+clear
+nvim
+clear
+exit
+nvim dotfiles/.config/nushell/config.nu
+nvim dotfiles/.config/nushell/env.nu
+nvim $nu.env-path
+clear
+cat .zshrc
+nvim dotfiles/.config/nushell/config.nu
+v dotfiles/.config/nushell/config.nu
+nvim dotfiles/.config/nushell/config.nu
+v
+clear
+l
+ll
+ls
+clear
+ll | grid -c
+ll | sort-by type name -i | grid -c | str trim
+clear
+v dotfiles/.config/nushell/config.nu
+config nu
+$env.config.buffer_editor = "nvim"
+config nu
+ls
+clear
+eza
+clear
+tmux
+ls
+clear
+exit
+ls
+ls | where #>20 and #<30
+ls | where row>20 and row<30
+clear
+neofetch
+clear
+cd Dot
+cd dotfiles/
+$nu.env-path
+v dotfiles/.config/nushell/env.nu
+v $nu.config-path
+cd dotfiles/
+ls
+ls --all
+cat .zoxide.nu
+source ~/.zoxide.nu
+cd dotfiles/
+clear
+cd
+$nu.env-path
+v $nu.config-path
+weather
+cd Documents/
+cat MurderDrones_Iceberg.txt | grep "UZI"
+v MurderDrones_Iceberg.txt
+z
+z Do
+clear
+cd
+ls
+clear
+cd Downloads/
+firfox `Essay for Babeh.pdf`
+firefox `Essay for Babeh.pdf`
+clear
+sudo pacman -Syu
+clear
+cd
+clear
+clock
+clear
+pp
+clear
+curl -X http://localhost:3000/api/uploadthing
+curl -X POST http://localhost:3000/api/uploadthing
+curl --help
+curl -X POST http://localhost:3000/api/uploadthing | json
+curl -X POST http://localhost:3000/api/uploadthing | jq
+curl -X POST http://localhost:3000/api/uploadthing -d @data.json
+cd git/
+mkdir HospitalResident
+ll
+ls
+ls HospitalResidence/
+ls HospitalResident/
+z
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+ls
+clear
+neofetch
+v dotfiles/.config/nushell/config.nu
+cd Documents/
+z Documents/
+v dotfiles/.config/nushell/config.nu
+z Documents/
+clear
+ls
+ls | sort-by size
+ls | sort-by size desc
+ls | sort-by size | reverse 
+clear
+ls
+ls | to json 
+ls | to nuon 
+ls | to yaml 
+ls | to html 
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+neofetch
+cd git/java/
+ll
+ls
+clear
+cd ../HospitalResidence/
+git init
+ls
+ls --all
+clear
+git remote add origin git@github.com:sky11fca/HospitalResidence.git
+git branch -M main
+git add .
+git commit -m "init"
+git push -u origin main
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+neofetch
+clear
+cd appimage/
+mv ~/Downloads/Nextcloud-3.16.4-x86_64.AppImage .
+ll
+ls
+chmod +x Nextcloud-3.16.4-x86_64.AppImage
+./Nextcloud-3.16.4-x86_64.AppImage
+v dotfiles/.config/hypr/configurations/environment.conf
+cd appimage/
+./Nextcloud-3.16.4-x86_64.AppImage
+clear
+neofetch
+cd dotfiles/.config/alacritty/
+ll
+ls
+open alacritty.toml
+open alacritty.toml | open font
+open alacritty.toml | ls font
+open alacritty.toml 
+ll
+clear
+cd
+v dotfiles/.config/nushell/config.nu
+ll
+ls --all
+v dotfiles/.config/nushell/config.nu
+ll
+ls -la
+clear
+ls -fa
+clear
+ll | where name=Documents
+ll | where name = Documents
+ll 
+ll | where name = Games
+ll | where name == Games
+ll | where name <> Games
+clear
+ll
+clear
+sudo pacman -Syu
+clear
+cd git/java/W12/src/main/java/homework/
+ll
+cd dirtest/
+cp ~/Downloads/SKlauncher-3.2.10.jar .
+ll
+clear
+cd ..
+ll
+javac Main.java
+ll
+javac SampleTests.java
+clear
+ll
+javac Main.java Test.java TestClass.java
+javac SampleTests.java Test.java
+ll
+java Main Test.class
+java Main SampleTests
+java Main SampleTests.class
+java Main dirtest/SKlauncher-3.2.10.jar
+java Main ./SampleTests.class
+java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
+clear
+sudo pacman -Syu
+cd git/java/W12/src/main/java/homework/
+ll
+java Main SampleTests..class
+java Main SampleTests.class
+java Main SampleTests
+java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
+javac Main.java Test.java TestClass.java
+java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
+cd git/java/W12/
+java -jar target/W12-1.0-SNAPSHOT.jar src/test/java/homework/test/SampleTests.java
+cd git/java/
+git add .
+git commit -m "LAST PUSH TO AP"
+git push
+clear
+cd git/
+mkdir Hospital
+cd Hospital/
+git init
+git remote add origin git@github.com:sky11fca/HospitalManagemet.git
+git branch -M main
+touch README.md
+git add .
+git commit -m "init"
+git push -u origin main
+sudo su -- postgres
+clear
+cd git/Hospital/
+git init
+git remote add origin git@github.com:sky11fca/HospitalManagement.git
+git branch -M main
+git commit -m "init"
+git add .
+git commit -m "init"
+git push -u origin main
+clear
+ll
+git add .
+git commit -m "Initial Setup"
+git push
+sudo pacman -Syu
+cd appimage/
+rm Nextcloud-3.16.4-x86_64.AppImage
+ll
+clear
+cd git/OS_2025/
+git add .
+got commit -m "Last Week Compulsory"
+git commit -m "Last Week Compulsory"
+git push
+clear
+cd Videos/
+yt-dlp -f mp4 'https://www.youtube.com/watch?v=J56MkSQHbag'
+ll
+clear
+sudo pacman -Syu
+clear
+cd git/GiftHub/
+git checkout master
+clear
+sudo pacman -Syu
+cd git/
+npx create-next-app@latest
+cd ultimateglitchstatus/
+ls
+git add .
+git remote add origin git remote add origin git@github.com:sky11fca/a_next_project.git
+git remote add origin git@github.com:sky11fca/a_next_project.git
+git branch -M main
+git commit -m "init"
+git push -u origin main
+npm run dev
+code git/ultimateglitchstatus/
+cd git/ultimateglitchstatus/
+cd ..
+rm -rf ultimateglitchstatus/
+npm create-
+npm create t3-app@latest
+cd ultimateglitchstatus/
+ll
+git remote add origin git@github.com:sky11fca/a_next_project.git
+git branch -M main
+git add .
+git commit -m "init"
+git push -u origin main
+code .
+cd git/
+rm -rf ultimateglitchstatus/
+npm create t3-app@latest
+cd ultimateglitchstatus/
+git commit -m "init"
+git remote add origin git@github.com:sky11fca/a_t3_app.git
+git branch -M main
+git push -u origin main
+code .
+cd git/
+rm irf ultimateglitchstatus/
+rm -rf ultimateglitchstatus/
+npm create t3-app@latest
+clear
+cd ultimateglitchstatus/
+code .
+bobbyarch3002
+clear
+sudo pacman -Syu
+neofetch
+clear
+htop
+clock
+cleae
+cd /opt/lampp/
+sudo ./lampp --start
+sudo ./lampp start
+clear
+cd htdocs/
+ll
+rm .htaccess router.php
+sudo rm .htaccess router.php
+ll
+sudo rm -rf local_greeter/
+sudo mkdir local_greeter
+sudo cp -r ~/git/Local_Greetings/* local_greeter/
+ll
+cd local_greeter/
+ll
+sudo .vim .htaccess
+sudo vim .htaccess
+sudo vim app/.htaccess
+cd Games/
+unzip ~/Downloads/Zuma.Deluxe.v1.0.zip 
+sudo pacman -Syu
+clear
+v Documents/MurderDrones_Iceberg.txt
+cd Games/
+unzip ~/Downloads/Zumas.Revenge.zip
+clear
+v Games/Zumas.Revenge/Zumas.Revenge/compat.cfg
+clock
+clear
+v Documents/some_BZ_shit.txt
+clock
+v Documents/Murder_Drones_Explained_By_A_Unemployed.txt
+sudo pacman -Syu
+paru -Sua
+clear
+cd /opt/lampp/
+sudo ./lampp start
+cd htdocs/
+sudo rm -rf local_greeter/
+sudo mkdir local_greeter
+sudo cp -r ~/git/Local_Greetings/* local_greeter/
+cd git/OS_2025/
+mkdir OS_SESSION_MODEL_2024
+code OS_SESSION_MODEL_2024/
+sudo pacman -Syu
+code git/OS_2025/OS_SESSION_MODEL_2024/
+cd git/OS_2025/
+mkdir IPC_templates
+code IPC_templates/
+clear 
+cd WEEK9/
+cod e.
+code .
+cd Downloads/
+unzip do_not_share.zip
+cd git/OS_2025/
+code .
+sudo pacman -Syu
+man sigaction
+man sighandler
+man 2 sighandler
+man 3 sighandler
+man sigsending
+cd git/OS_2025/
+mkdir ANOTHER_MODEL
+code ANOTHER_MODEL/
+code .
+man sem_open
+man sem_post
+man sem_wait
+man sem_close
+man sem_unlink
+code TP2_BazonBogdan/
+ll
+zip -r TP2_BazonBogdan TP2_BazonBogdan/
+zip TP2_BazonBogdan -r TP2_BazonBogdan/
+sudo pacman -Syu
+paru -Sua
+clear
+bluetoothctl
+sudo pacman -Syu
+unzip Downloads/DECRAFT-1.3-net452.zip
+ll
+clear
+mkdir decraft
+cd decraft/
+unzip ~/Downloads/DECRAFT-1.3-net452.zip
+wine DeCraftLauncher.exe
+clear
+sudo pacman -S winetricks
+winetricks dotnet472 vcrun2012 d3dcompiler_47
+wine DeCraftLauncher.exe
+killall -9 wine
+killall -9 wineserver
+winetricks dotnet472 vcrun2012 d3dcompiler_47
+htop
+wine DeCraftLauncher.exe
+ll
+cd git/
+git clone https://github.com/MultiMC/multimc-pkgbuild.git
+cd multimc-pkgbuild/
+makepkg -si
+sudo pacman -Syu
+cd Downloads/
+unzip ext1605_r4.zip
+cd ext1605_r4/
+ll
+cat README.txt
+clear
+ipconfig
+ifconfig
+ip a
+cd Downloads/ext1605_r4/
+java -jar ext1605_20_server.jar nogui
+java -Xmx2G -jar ext1605_20_server.jar nogui
+java -Xmx4G -jar ext1605_20_server.jar nogui
+v dotfiles/.config/alacritty/alacritty.toml

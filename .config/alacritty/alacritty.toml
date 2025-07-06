@@ -1,0 +1,58 @@
+[general]
+import = ["~/.cache/wal/colors-alacritty.toml",]
+
+#[font]
+#size = 10.0
+
+[terminal]
+shell = "zsh"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+#[colors.normal]
+#black = "#000000"
+#red = "#b21818"
+#green = "#18b2b2"
+#yellow = "#b26818"
+#blue = "#1818b2"
+#magenta = "#b218b2"
+#cyan = "#18b2b2"
+#white = "#ffffff"
+
+#[colors.bright]
+#black = "#686868"
+#red = "#ff5454"
+#green = "#54ff54"
+#yellow = "#ffff54"
+#blue = "#5454ff"
+#magenta = "#ff54ff"
+#cyan = "#54ffff"
+#white = "#ffffff"
+
+#[colors.dim]
+#black = "#000000"
+#red = "#650000"
+#green = "#006500"
+#yellow = "#655e00"
+#blue = "#000065"
+#magenta = "#650065"
+#cyan = "#006565"
+#white = "#ffffff"

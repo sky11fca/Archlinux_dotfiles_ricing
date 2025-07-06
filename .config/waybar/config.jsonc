@@ -20,40 +20,16 @@
     ],
     "modules-right": [
         "cpu",
-        "custom/sep",
 	"temperature",
-        "custom/sep",
 	"memory",
-        "custom/sep",
 	"disk",
 //        "custom/sep",
 //        "pulseaudio",
-        "custom/sep",
         "backlight",
-        "custom/sep",
         "clock",
-        "custom/sep",
 	"battery",
-        "custom/sep",
         "tray"
     ],
-    // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
 
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -285,33 +261,5 @@
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
         "on-click": "kitty sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar",
         "signal": 8
-    },
-
-    "custom/sep": {
-//        "format": ""
-	"format": ""
-    },
-
-    "custom/sep1": {
-        "format": ""
-    },
-
-    "custom/sep2": {
-        "format": ""
-    },
-
-    "custom/sep3": {
-        "format": ""
-    },
-
-    "custom/sep4": {
-        "format": ""
-    },
-    "custom/sep5": {
-        "format": ""
-    },
-
-    "custom/sep6": {
-        "format": ""
     },
 }
