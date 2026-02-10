@@ -7,38 +7,40 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/window"
-	//"custom/sep",
-	//"cava"
+      "custom/launcher",  
+      "hyprland/workspaces"
     ],
     "modules-center": [
-//        "custom/sep",
-        "hyprland/workspaces"
-//        "custom/sep"
-//	"disk2",
-//	"custom/sep"
+        "hyprland/window"
     ],
     "modules-right": [
-        "cpu",
-	"temperature",
-	"memory",
-	"disk",
-//        "custom/sep",
-//        "pulseaudio",
+        "tray",
+        "network",
+        "pulseaudio",
         "backlight",
-        "clock",
-	"battery",
-        "tray"
+        "battery",
+        "clock"
     ],
+
+    "custom/launcher": {
+        "format": "  ",
+        "on-click": "rofi -show drun",
+        "tooltip": false
+    },
 
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-            "active": "",
+            "1":"",
+            "2":"󰈹",
+            "3":"",
+            "4":"",
+            "5":"",
+            "6":"",
             "default": ""
         },
         "persistent-workspaces": {
-            "*": 10, // 5 workspaces by default on every monitor
+            "*": 6, // 5 workspaces by default on every monitor
             "HDMI-A-1": 3 // but only three on HDMI-A-1
         }
     },
@@ -48,84 +50,18 @@
         "separate-outputs": true
     },
 
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
-    "sway/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
-    },
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "unknown-tag": "N/A",
-        "interval": 5,
-        "consume-icons": {
-            "on": " "
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ",
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
-    },
     "tray": {
-        // "icon-size": 21,
         "spacing": 10
     },
+    
     "clock": {
         // "timezone": "America/New_York",
         "format": " {:%I:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d-%m-%Y}",
-	"interval": 1
+	      "interval": 1
     },
-    "cpu": {
-        "format": " {usage}%",
-        "tooltip": false
-    },
-    "memory": {
-        "format": " {}%"
-    },
-    "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", " "]
-    },
+    
     "backlight": {
         // "device": "acpi_video1",
         "format": "{icon} {percent}%",
@@ -171,9 +107,9 @@
     },
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
-        "format": "{icon} {volume}% {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": "  {icon} {format_source}",
+        "format": "{icon} {volume}% ",
+        "format-bluetooth": "{volume}% {icon} ",
+        "format-bluetooth-muted": "  {icon} ",
         "format-muted": "  {format_source}",
         "format-source": "{volume}%  ",
         "format-source-muted": " ",
@@ -187,79 +123,5 @@
             "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
-    },
-    "custom/media": {
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    },
-    "custom/power": {
-        "format" : "⏻ ",
-		"tooltip": false,
-		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-		"menu-actions": {
-			"shutdown": "shutdown",
-			"reboot": "reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
-		}
-    },
-    "pulseaudio/slider": {
-        "min": 0,
-        "max": 100,
-        "orientation": "horizontal"
-    },
-    "cava": {
-        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
-        "framerate": 30,
-        "autosens": 1,
-        "sensitivity": 100,
-        "bars": 14,
-        "lower_cutoff_freq": 50,
-        "higher_cutoff_freq": 10000,
-        "method": "pulse",
-        "source": "auto",
-        "stereo": true,
-        "reverse": false,
-        "bar_delimiter": 0,
-        "monstercat": false,
-        "waves": false,
-        "noise_reduction": 0.77,
-        "input_delay": 2,
-        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-        "actions": {
-            "on-click-right": "mode"
-        }
-    },
-
-    "disk": {
-        "interval": 30,
-        "format": "󰋊 ({path}) {percentage_used}%",
-        "tooltip-format": "{used}GB/{total}GB",
-        "path": "/home"
-    },
-
-    "disk2": {
-       	"interval": 30,
-       	"format": "󰋊 ({path}) {percentage_used}%",
-        "tooltip-format": "{used}GB/{total}GB",
-        "path": "/"
-    },
-
-    "custom/pacman": {
-        "format": "  {} ",
-        "interval": 1800,                     // every hour
-        "exec": "checkupdates | wc -l",       // # of updates
-        "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "kitty sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar",
-        "signal": 8
-    },
+    }
 }

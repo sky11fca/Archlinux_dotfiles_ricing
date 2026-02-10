@@ -1,7 +1,7 @@
 # env.nu
 #
 # Installed by:
-# version = "0.104.1"
+# version = "0.107.0"
 #
 # Previously, environment variables were typically configured in `env.nu`.
 # In general, most configuration can and should be performed in `config.nu`
@@ -16,5 +16,7 @@
 #
 # You can remove these comments if you want or leave
 # them for future reference.
+#
 
 zoxide init nushell | save -f ~/.zoxide.nu
+

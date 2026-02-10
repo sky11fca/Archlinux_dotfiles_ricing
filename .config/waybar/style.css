@@ -1,44 +1,31 @@
 @import '../../.cache/wal/colors-waybar.css';
 
-
-
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font;
     font-size: 13px;
+    border: none;
+    border-radius: 0;
 }
 
 window#waybar {
 	padding-left: 5px;
-    background-color: rgba(0,0,0,0);
+   background: linear-gradient(180deg, 
+                rgba(0, 0, 0, 0.8) 0%, 
+                rgba(0, 0, 0, 0.4) 50%, 
+                rgba(0, 0, 0, 0) 100%);
+    color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
 .modules-left{
-	background-color: @background;
-	border: 3px solid @foreground;
-	padding: 5px;
-	margin-left: 30px;
-	margin-top: 30px;
-	margin-right: 10px;
-	border-radius: 0px;
 }
 
 .modules-center{
-	background-color: @background;
-	border: 3px solid @foreground;
-	margin-top: 30px;
-	border-radius: 0px;
 }
 
 .modules-right{
-	background-color: @background;
-	border: 3px solid @foreground;
-	margin-right: 30px;
-	margin-top: 30px;
-	margin-left: 10px;
-	border-radius: 0px;
 }
 
 window#waybar.hidden {
@@ -285,60 +272,3 @@ label:focus {
     background-color: #0069d4;
 }
 
-#pulseaudio-slider{
-    background: #00ffff;
-    color: #000000
-}
-
-#pulseaudio-slider slider {
-    min-height: 0px;
-    min-width: 0px;
-    opacity: 0;
-    background-image: none;
-    background-color: #000000;
-}
-#pulseaudio-slider trough {
-    min-height: 1px;
-    min-width: 80px;
-    background-color: black;
-}
-#pulseaudio-slider highlight {
-    min-width: 1px;
-    background-color: black;
-}
-
-#custom-pacman{
-	margin-left: 10px;
-}
-
-#custom-sep{
-	/*font-size: 20px*/
-}
-/*
-#custom-sep1{
-    color: #00ffff;
-    font-size: 35px
-}
-#custom-sep2{
-    color: #00ffff;
-    font-size: 35px
-}
-
-#custom-sep3{
-    color: #000000;
-    font-size: 35px
-}
-#custom-sep4{
-    color: #000000;
-    font-size: 35px
-}
-#custom-sep5{
-    color: #000000;
-    background: #00ffff;
-    font-size: 35px
-}
-#custom-sep6{
-    color: #000000;
-    background: #00ffff;
-    font-size: 35px
-}*/

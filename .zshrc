@@ -14,22 +14,22 @@ alias cd='z'
 alias v='nvim'
 alias neofetch='fastfetch --logo arch2'
 alias ll='eza -lah --git --icons=auto'
-alias f='"$(fzf)"'
-alias swaylock='swaylock --color #000000'
+#alias f='"$(fzf)"'
+#alias swaylock='swaylock --color #000000'
 alias clock='tty-clock -sctD'
 alias l='eza -lh --git --icons=auto'
 alias lst='eza -lhT --icons=auto'
 alias fzf='fzf --border=sharp --preview="cat {}"'
-alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
-alias music='mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display '
-alias doc='nvim $(find ~/Documents/ -type f | fzf)'
+#alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
+#alias music='mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display '
+#alias doc='nvim $(find ~/Documents/ -type f | fzf)'
 alias dotf='cd $DOTFILES'
 alias sudo='doas'
-alias notes='nvim ~/Notes/'
+#alias notes='nvim ~/Notes/'
 alias pic='kitten icat --align=left'
 alias weather='curl wttr.in'
 
-alias gpt='ollama run deepseek-r1:1.5b'
+#alias gpt='ollama run deepseek-r1:1.5b'
 
 #RPROMPT='%F{blue}λ%f'
 #RPROMPT="%F{blue}[%D %t]%f"
@@ -52,7 +52,7 @@ setopt appendhistory
 
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

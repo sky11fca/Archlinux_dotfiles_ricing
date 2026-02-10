@@ -1,48 +1,50 @@
 # config.nu
 #
 # Installed by:
-# version = "0.104.1"
+# version = "0.107.0"
 #
 # This file is used to override default Nushell settings, define
 # (or import) custom commands, or run any other startup tasks.
 # See https://www.nushell.sh/book/configuration.html
 #
-# This file is loaded after env.nu and before login.nu
+# Nushell sets "sensible defaults" for most configuration settings, 
+# so your `config.nu` only needs to override these defaults if desired.
 #
 # You can open this file in your default editor using:
-# config nu
+#     config nu
 #
-# See `help config nu` for more options
-#
-# You can remove these comments if you want or leave
-# them for future reference.
+# You can also pretty-print and page through the documentation for configuration
+# options using:
+#     config nu --doc | nu-highlight | less -R
 
 
-#ALIASES
+$env.config.buffer_editor = "vim"
 
-#alias ls = eza --color=auto --icons=auto
-alias gdb = gdb --tui
-alias grep = rg --color=auto
-alias cat = bat
-#alias cd = z
-alias v = nvim
-alias neofetch = fastfetch --logo arch2
-alias ll = ls -a
-#alias f = "$(fzf)"
-alias swaylock = swaylock --color #000000
-alias clock = tty-clock -sctD
-#alias l = eza -lh --git --icons=auto
-#alias lt = eza -lhT --icons=auto
-#alias fzf = fzf --border=sharp --preview="cat {}"
-#alias pp = power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)
-#alias music = mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display 
-#alias doc = nvim $(find ~/Documents/ -type f | fzf)
-#alias dotf = cd $DOTFILES
-alias sudo = doas
-alias notes = nvim ~/Notes/
-alias pic = kitten icat --align=left
-alias weather = curl wttr.in
+$env.config.show_banner = false
 
 
 $env.config.show_banner = false
 source ~/.zoxide.nu
+
+alias cd = z
+alias ll = ls -la
+alias v = nvim
+alias neofetch = fastfetch
+alias cat = bat
+alias hyprconf = nvim ~/.config/hypr/hyprland.conf 
+alias globalvar = nvim ~/.config/hypr/configurations/vars.conf 
+alias mouseconf = nvim ~/.config/hypr/configurations/input.conf 
+alias keyconf = nvim ~/.config/hypr/configurations/keybinds.conf 
+alias daemonconf = nvim ~/.config/hypr/configurations/startup.conf 
+alias displayconf = nvim ~/.config/hypr/configurations/monitors.conf 
+alias animconf = nvim ~/.config/hypr/configurations/animations.conf 
+alias appearanceconf = nvim ~/.config/hypr/configurations/appearance.conf 
+alias windowrule = nvim ~/.config/hypr/configurations/windowrules.conf 
+alias barconf = nvim ~/.config/waybar/config.jsonc 
+alias barstyle = nvim ~/.config/waybar/style.css 
+
+
+mkdir ($nu.data-dir | path join "vendor/autoload")
+starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+
+fastfetch

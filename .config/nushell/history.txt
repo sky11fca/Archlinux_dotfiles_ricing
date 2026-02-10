@@ -1,457 +1,1764 @@
+ls
 clear
+ls
+clear
+exit
+sudo pacman -S latte-dock
+pacman -Ss latte-dock
+pacman -Ss latte
+sudo pacman -S noto-fonts-cjk
+ls
+clear
+ll
+clear
+exit
+clear
+sudo pacman -S jj
+sudo pacman -S jujitsu
+pacman -Ss jj
+pacman -Ss jujitsu
+pacman -Ss jujutsu
+sudo pacman -S jujutsu
+clear
+mkdir Isos Vms
+sudo pacman -S dnsmasq
+sudo pacman -S pcscd
+sudo pacman -S pcsc
+sudo pacman -S pcsc-tools
+sudo systemctl enable --now pcscd
+exit
+pcsc_scan 
+sudo pacman -S spice
+sudo pacman -S spicevnc
+pacman -Ss spice
+sudo pacman -S qemu
+sudo pacman -S qemu-full
+sudo pacman -Syu
+clear
+sudo pacman -Rsn qemu libvirt spice
+sudo pacman -Rsn qemu-full libvirt spice
+sudo pacman -Rsn qemu-full libvirt spice virt-manager
+clear
+reboot
+sudo pacman -S virtualbox
+exit
+cat /etc/group
+sudo usermod -aG vboxusers mrbogdanovich
+reboot
+systemctl status vboxdrb
+systemctl status vboxdrv
+sudo pacman -S vboxdrv
+paru -Sua
+clear
+vim .config/nushell/config.nu
+config nu
+ls
+clear
+exit
+sudo pacman -Syu
+fastfetch
+reboot
+unzip kali-linux-2025.3-virtualbox-amd64.7z
+sudo pacman -S 7zip
+7zip --help
+unzip kali-linux-2025.3-virtualbox-amd64.7z
+sudo pacman -Syu
+clear
+sudo pacman -Rsn qemu-base
+clear
+exot
+exit
+sudo pacman -S amd_ucode fwupd
+sudo pacman -S amd-ucode fwupd
+sudo pacman -Syu
+sudo pacman -Rsn bbswitch bumblebee
+reboot
+nvidia-smi
+paru -Sua
+sudo pacman -S libreoffice-fresh
+mkdir AppImage
+cd AppImage/
+mv ~/Downloads/Obsidian-1.9.14.AppImage .
+ls
+clear
+./Obsidian-1.9.14.AppImage
+chmod +x Obsidian-1.9.14.AppImage
+./Obsidian-1.9.14.AppImage
+./AppImage/Obsidian-1.9.14.AppImage
+sudo pacman -S cpufetch
+cpufetch
+./AppImage/Obsidian-1.9.14.AppImage
+sudo pacman -Syu
+paru -Sua
+git clone git@github.com:sky11fca/Archlinux_dotfiles_ricing.git
+mv Archlinux_dotfiles_ricing/ dotfiles
 ll
 ls
 clear
-all
-clear
-ls -la
-clear
-mkdir dotfiles/.config/alacritty
-mv .config/alacritty/alacritty.toml dotfiles/.config/alacritty/
-nvim dotfiles/.config/alacritty/alacritty.toml
 cd dotfiles/
+sudo pacman -S eza bat zoxide opendoas
+sudo pacman -S fzf stow
 stow .
+stow . --adopt
 exit
-v .config/alacritty/alacritty.toml
-nvim .config/alacritty/alacritty.toml
+ls
+ll
+clear
+nvim
+clear
+config nu
+vim dotfiles/.config/nushell/env.nu
+config nu
+cd Documents/
+cd
+cd Do
+cd
+clear
+ll
+config nu
+ll
+clear
+config nu
+ls
+ll
+clear
+cd dotfiles/
+clear
+cd
+sudo pacman -S putty filezilla
+clear
+v
+sudo vim /etc/pacman.conf
+clear
+nvim
+cd dotfiles/.config/nvim/lua/plugins/
+ls
+rm pywal.lua
+cd ..
+ll
+nvim
+nvim dotfiles/.config/nvim/lua/lsp_config.lua
+cd dotfiles/.config/nvim/lua/
+ll
+mkdir lsp
+nvim lsp_config.lua
+nvim
+nvim plugins/lualine.lua
+clear
+cd
+config nu
+v
 clear
 ls
+clear
+ll
+clear
+ll
+clear
+exit
+sudo pacman -S adwaita-fonts
+sudo pacman -S ttf-jetbrains-mono-nerd
+sudo pacman -S gnu-free-fonts
+sudo pacman -S noto-fonts
+sudo pacman -S powerline-fonts
+clear
+exit
+neofetch
+fastfetch
+clear
+exit
+systemctl status cups
+exit
+nvidia-smi
+exit
+nvidia-smi
+sudo pacman -Syu
+cd git/Dotnet_Works/
+cd Courses/
+ll
+mkdir WEEK3
+cd ..
+mkdir WEEK3
+ll
+cd git/Dotnet_Works/
+cd Courses/
+rm -rf WEEK3/
+cd ..
+rm -rf WEEK3/
+paru -Sua
+clear
+exit
+clear
+git add .
+git push
+clear
+mkdir Features Common Validators Tests
+cd Features/
+mkdir Books/DTOs
+cd ..
+cd Common/
+mkdir Mapping Logging Middleware
+cd ..
+cd Validators/
+Mkdir Attributes
+mkdir Attributes
+cd ..
+sudo pacman -Syu
+clear
+sudo pacman -Syu
+clear
+paru -Sua
+clear
+fastfetch
+sudo pacman -S avahi
+systemctl status avahi-daemon
+systemctl enable avahi-daemon --now
+systemctl status avahi-daemon
+clear
+sudo pacman -S nss-mdns
+lpstat
+sudo usermod -aG lpadmin $USER
+sudo usermod -aG lpadmin "$(whoami)"
+sudo pacman -S yt-dlp
+yt-dlp -f mp4 https://youtu.be/J56MkSQHbag?si=2evAHxDhucoUWn7p
+exit
+sudo pacman -Syu
+sudo pacman -Syu\
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+ping gnu.org
+clear
+sudo pacman -Syu
+clear
+ls
+clear
+sudo pacman -Syu
+sudo pacman -S kleopatra
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+reboot
+nvidia-smi
+exit
+git clone https://aur.archlinux.org/davinci-resolve.git
+makepkg -si
+exit
+/opt/resolve/bin/resolve
+LD_PRELOAD="/usr/lib64/libglib-2.0.so" /opt/resolve/bin/resolve
+LD_PRELOAD="/usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so" /opt/resolve/bin/resolve
+sudo rm /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/libgmodule-2.0.so*
+mkdir rulesets
+cd rulesets/
+touch DaVinci_Resolve_main_window_always_with_titlebar_and_frame.kwinrule
+v DaVinci_Resolve_main_window_always_with_titlebar_and_frame.kwinrule
+nvidia-smi
+vainfo
+exit
+pacman -Q | grep gst
+sudo pacman -S gst-plugins-good gst-plugins-ugly
+sudo vim /etc/modprobe.d/nvidia-performance.conf
+sudo mkinitcpio -P
+reboot
+cd .minecraft
+prime-run minecraft.sh
+prime-run ./minecraft.sh
+sudo pacman -S podman-desktop
+sudo pacman -S lazydocker
+clear
+lazydocker 
+id
+sudo usermod -aG docker "$(whoami)"
+sudo usermod -aG docker '$(whoami)'
+id
+docker -ps
+docker ps
+clear
+lazydocker 
+clear
+sudo pacman -S grub-customizer
+sudo pacman -S grub-customiser
+sudo pacman -S winetricks
+WINEPREFIX = /home/mrbogdanovich/.steam/steam/steamapps/compatdata/2679576805/pfx winetricks dotnet48
+bash
+exit
+whereis steam
+sudo pacman -Syu
+paru -Sua
+exit
+nvim
+nvim dotfiles/.config/starship.toml
+sudo pacman -Syu
+paru -Sua
+clear
+paru -S protontricks
+exit
+sudo pacman -Rsn ollama
+clear
+sudo pacman -Syu
+paru -Sua
+exit
+sudo pacman -Rsn plasma-discover
+pacman -Q | grep discover
+sudo pacman -Rsn discover
+exit
+sudo pacman -Syu
+clear
+exit
+paru -Sua
+clear
+exit
+echo "a_key123" > secret.key
+bash -c "echo "a_key123" > secret.key"
+clear
+bash
+exit
+sudo pacman -Syu
+git add .
+exit
+git add .
+exit
+git add .
+git commit -m "More Homeworks from coleagues"
+git push
+exit
+sudo pacman -S emacs
+sudo pacman -Rsn emacs
+rm -rf .emacs.d/
+clear
+cpufetch
+neofetch
+fastfetch
+sudo pacman -Syu
+paru -Sua
+exit
+cd git/Dotnet_Project/Application/
+git add .
+sudo pacman -Syu
+cd Documents/thesis/
+ll
+npm install -g @google/gemini-cli
+sudo pacman -S node npm
+sudo pacman -S node-js npm
+sudo pacman -S nodejs npm
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+gemini 
+clear
+gemini
+clear
+exit
+git add .
+git commit -m "More Homeworks from coleagues"
+git push
+exit
+sudo pacman -Syu
+sudo pacman -S kate
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+reboot
+paru -Sua
+exit
+sudo pacman -S proton-vpn
+sudo pacman -S protonvpn
+pacman -Ss protonvpn
+sudo pacman -S proton-vpn-gtk-app
+sudo pacman -Syu
+pacman -Ss dotnet
+sudo pacman -S dotnet-sdk
+git clone git@github.com:PetruGlt/CampusEats.git
+sudo pacman -S alacritty
+clear
+alacrity
+alacritty
+v dotfiles/.config/alacritty/alacritty.toml
+ll
+clear
+exit
+alacritty
+exit
+ll
+clear
+fastfetch
+exit
+git add .
+git commit -m "Dotnet"
+git push
+clear
+exit
+v dotfiles/.config/alacritty/alacritty.toml
+paru -Sua
+paru -S python-pywal
+paru -S python-pywal16
+clear
+wal --help
+wal 
+v dotfiles/.config/alacritty/alacritty.toml
+sudo pacman -S wezterm
+exit
+ll
+clear
+fastfetch
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+ll
+clear
+exit
+sudo pacman -S yazi
+clear
+yazi
+clear
+ls
+clear
+exit
+sudo pacman -Rsn konsole
+clear
+exit
+pacman -Ss breeze
+exit
+v dotfiles/.config/yazi/yazi.toml
+v dotfiles/.config/yazi/theme.toml
+exit
+whereis dotnet
+sudo pacman -Rsn dotnet-sdk
+sudo pacman -S dotnet-sdk
+ll
+clear
+cd Documents/
+cd
+cd dot
+cd
+clear
+ll
+clear
+exit
+ll
 clear
 neofetch
 fastfetch
 clear
-ls
-ls | where type == dir
+sudo pacman -Syu
 clear
-ls --all
-clear
-cat Documents/MurderDrones_Iceberg.txt
-clear
-nvim
+paru -Sua
+exit
+gemini
+export GOOGLE_CLOUD_PROJECT="circular-answer-472118-t2"
+bash
+gemini
+bash
+gemini
+cd Documents/thesis/
+ll
+bash
+gemini
+cd Documents/thesis/
+gemini
 clear
 exit
-nvim dotfiles/.config/nushell/config.nu
-nvim dotfiles/.config/nushell/env.nu
-nvim $nu.env-path
+sudo pacman -Rsn dotnet-sdk
+cd git/ml_homework_solutions/
+git add .
+git commit -m "More solutions from coleagues"
+git push
+exit
+sudo pacman -Syu
+ls
 clear
-cat .zshrc
-nvim dotfiles/.config/nushell/config.nu
-v dotfiles/.config/nushell/config.nu
-nvim dotfiles/.config/nushell/config.nu
-v
+fastfetch
 clear
-l
+exit
+ls
+clear
+fastfetch
+clear
+exit
+v dotfiles/.config/yazi/yazi.toml
+v dotfiles/.config/wezterm/wezterm.lua
+cd dot
+cd
+cd dotfiles/
+cd walls/
+mv `creepy fuck.jpg` creepy_fuck.jpg:w
+mv creepy_fuck.jpg:w creepy_fuck.jpg
+ls
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+exit
+ls
+clear
 ll
+clear
+ld
+ll
+exit
+v dotfiles/.config/wezterm/wezterm.lua
 ls
-clear
-ll | grid -c
-ll | sort-by type name -i | grid -c | str trim
-clear
-v dotfiles/.config/nushell/config.nu
-config nu
-$env.config.buffer_editor = "nvim"
-config nu
-ls
-clear
-eza
 clear
 tmux
+sudo pacman -S tmux
+tmux
+v .tmux.conf
+clear
+ls
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+exit
+v dotfiles/.config/wezterm/wezterm.lua
+exit
+exit
+exit
+exit
+clear
+ls
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+ls
+clear
+fastfetch
+clear
+exit
+ls
+clear
+exit
+v .Xresources
+reboot
+sudo pacman -S xorg-xinit xorg-server
+reboot
+xrdb ~/.Xresources
+v .xinitrc
+reboot
+exit
+bash
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+yazi
+exit
+sudo pacman -S feh
+sudo pacman -Rsn gwenview
+yazi
+clear
+exigt
+exit
+ya pkg add yazi-rs/plugins:full-border
+touch dotfiles/.config/yazi/init.lua
+cd dotfiles/
+stow .
+v .config/yazi/init.lua
+yazi
+cd
+exit
+yazu
+yazi
+exit
+sudo pacman -Syu
+v dotfiles/.config/wezterm/wezterm.lua
+reboot
+paru -Sua
+sudo pacman -Rsn python-pywal16
+sudo pacman -S imagemagick
+exit
+sudo pacman -S nvidia-container-toolkit
+clear
+docker run --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama nvidia-smi
+docker pull ollama/ollama
+clear
+docker run --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama nvidia-smi
+docker run --rm --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama nvidia-smi
+docker pull alpine
+docker run --rm --runtime=nvidia --pous all alpine nvidia-smi
+docker run --rm --runtime=nvidia --gpus all alpine nvidia-smi
+docker run --help
+clear
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+docker run --rm --runtime=nvidia --gpus all alpine nvidia-smi
+docker run --rm --runtime=nvidia --gpus all alpine
+nvidia-smi
+clear
+docker ps
+docker exec -it --runtime=nvidia --gpus all alpine
+docker exec --it --runtime=nvidia --gpus all alpine
+docker run --runtime=nvidia --gpus all alpine
+docker ps
+docker ps -a
+docker run --rm --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama nvidia-smi
+docker ps -a
+lazydocker 
+docker run --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama nvidia-smi
+docker ps -a
+docker run --runtime=nvidia --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+clear
+exit
+ls
+clear
+ll
+clear
+exit
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+docker run --gpus all -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+mkdir compose
+cd compose/
+touch compose.yml
+v compose.yml
+docker-compose up -d
+v compose.yml
+docker-compose up -d
+v compose.yml
+cd git/ml_homework_solutions/
+ll
+cd WEEK5/
+cat README.md
+cd ..
+cd WEEK4
+cat README.md
+docker-compose up -d
+mv ~/Downloads/Mitila_Alin_Remus_H5_ML.pdf Mitila-Alin.pdf
+ll
+cd ..
+git add ,.
+git add .
+git commit -m "More solutions from coleagues"
+git push
+exit
+ping localhost:3000
+ping localhost
+ping --help
+ls
+clear
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+yazi
+clear
+ls
+clear
+neofetch
+v dotfiles/.config/nushell/config.nu
+neofetch
+nvidia-smi
+clear
+exit
+cd git/
+git clone git@github.com:DragonLordKing/Artificial-Intelligance.git
+clear
+exit
+sudo pacman -S apparmor
+libcap
+pacman -Q | grep libcap
+man capabilities
+sudo pacman -S man
+man capabilities
+cat /proc/sys/kernel/cap_last_cap
+systemctl status apparmor
+systemctl enable apparmor --now
+systemctl status apparmor
+sudo vim /etc/default/grub
+sudo su
+reboot
+systemctl status apparmor
+aa-enabled 
+clear
+exit
+sudo aa-status 
+exit
+sudo pacman -Syu
+paru -Sua
+sudo pacman -Syu
+cd AppImage/
+tar -xvf ~/Downloads/zen.linux-x86_64.tar.xz
+cd zen/
+./zen-bin
+clear
+exit
+sudo pacman -Syu
+exit
+sudo pacman -S kommit
+clear
+exit
+ls
+clear
+neofetch
+clear
+sudo pacman -Syu
+clear
+exit
+exit
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+clear
+exit
+clear
+exit
+tmux
+clear
+exit
+v .tmux.conf
+cat .tmux.conf
+clear
+ls
+ckear
+clear
+exit
+exit
+ll
+clear
+exit
+tmux
+nvim
+cleatr
+clear
+neofetch
+exit
+v dotfiles/.config/wezterm/wezterm.lua
+ls
+clear
+exit
+cat --help
+head --help
+sudo pacman -Syu
+paru -Sua
+exit
+sudo pacman -Syu
+nvidia-smi --help
+nvidia-smi -l 1
+sudo pacman -Syu
+paru -Sua
+exit
+clear
+exit
+sudo pacman -Syu
+reboot
+nvidia-smi
+sudo pacman -Syu
+paru -Sua
+clear
+sudo pacman -S kmines
+sudo pacman -Rsn kmines
+sudo pacman -S kdegraphics-thumbnailers tumblrer ffmpegthumbnailer ffmpegthumbs
+sudo pacman -S kdegraphics-thumbnailers tumbler ffmpegthumbnailer ffmpegthumbs
+sudo pacman -S kdesdk-thumbnailer
+sudo pacman -S kdesdk-thumbnailers
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Rsn libreoffice-fresh
+cd git/Python_Works/MIDTERM_MODELS/
+echo "# Yeah so apparently we have Python Midterms" > README.md
+bash -c echo "# Yeah so apparently we have Python Midterms" > README.md
+bahs
+bash
+clear
+exit
+sudo pacman -Syu
+clear
+exit
+sudo vim /etc/hosts
+exit
+nvidia-smi
+npm --help
+npm uninstall -g @google/gemini-cli
+sudo npm uninstall -g @google/gemini-cli
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+cd git/ml_homework_solutions/
+git add .
+git commit -m "Last Homework for first half"
+git push
+exit
+sudo pacman -Syu
+paru -Sua
+exit
+sudo pacman -Syu
+clear
+paru -Sua
+clear
+sudo pacman -Syu
+exit
+sudo pacman -Syu
+cd git/testingJar/testingJar/build/libs/
+ls
+java -jar testingJar-1.0-SNAPSHOT.jar
+ls
+java -jar testingJar-1.0-SNAPSHOT.jar
+clear
+..
+ls
+cd libs/
+ls
+rm testingJar-1.0-SNAPSHOT.jar
+ls
+java -jar testingJar-1.0-SNAPSHOT.jar
+java -jar testingJar-1.0-SNAPSHOT.jar com.example.Main
+java -cp testingJar-1.0-SNAPSHOT.jar com.example.Main
+java tf testingJar-1.0-SNAPSHOT.jar
+sudo pacman -Syu
+exit
+sudo pacman -Syu
+sudo pacman -S taglib
+sudo pacman -S libappimage
+sudo pacman -S ffmpegthumbs
+sudo pacman -S kimageformats
+cd git/
+git clone git@github.com:PetruGlt/CampusEats.git
+git status
+cd CampusEats/
+git status
+git checkout
+git checkout orders,-kitchen
+git checkout
+git checkout main
+git checkout master
+git checkout orders,-kitchen
+sudo pacman -S chromium
+cd git/CampusEats
+ls
+git add .
+git commit -m "Some Work on UI"
+sudo pacman -Rsn chromium
+sudo pacman -Syu
+sudo pacman -Rsn kommit
+cd git/ml_homework_solutions/
+cd WEEK7/
+ls
+v README.md
+cd ..
+git add .
+git commit -m "It has begun"
+git push
+sudo pacman -Syu
+cd git/BookManagement/
+git init
+git add .
+git remote add origin git@github.com:sky11fca/Dotnet_BookManager.git
+git branch -M main
+git commit -m "Init"
+git push -u origin main
+cd .local/share/Steam/steamapps/common/Balatro/
+7z x Balatro.exe conf.lua
+7z a Balatro.exe conf.lua
+sudo pacman -Syu
+paru -Sua
+curl http://localhost:5201
+curl http://localhost:5201/weatherforecast
+cd git/
+mkdir Grep_dot_py
+sudo pacman -Syu
+paru -Sua
+exit
+ls
+clear
+ll
+clear
+ls
+ll
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+gemini
+clear
+exit
+cd git/CampusEats/
+git add .
+git commit -m "First implementation of the UI"
+exit
+cd .steam/steam/steamapps/common/Balatro/
+ls
+v conf.lua
+7z a Balatro.exe conf.lua
+rm conf.lua
+exit
+sudo pacman -Syu
+clear
+sudo pacman -S docker.io
+pacman -Ss docker-ce
+docker -v
+pacman -Ss minikube
+sudo pacman -S minikube
+minikube start
+kubectl version -client
+kubectl version --client
+kubectl
+clear
+sudo pacman -Rsn minikube
+exit
+curl http://localhost:5168/menu
+sudo pacman -S filelight
+sudo pacman -Sc
+systemctl status paccache
+systemctl enable paccache.timer
+systemctl enable paccache.timer --now
+sudo pacman -Syu
+paru -Sua
+sudo pacman -S alacritty
+clear
+exit
+sudo pacman -Rsn wezterm\
+sudo pacman -Rsn wezterm
+clear
+neofetch
+yazi
+exit
+tmux
+v dotfiles/.config/alacritty/alacritty.toml
+ls
+clear
+ll
+clear
+neofetch
+clear
+ls
+ll
+clear
+yazi
+clear
+exit
+fastfetch
+sudo pacman -Syu
+clear
+paru -Sua
+clea
+clear
+exit
+sudo pacman -S keepassx
+sudo pacman -S keepass
+sudo pacman -Rsn keepass
+sudo pacman -S keepassxc
+sudo pacman -Rsn keepassxc
+sudo pacman -Rsn keepassxc
+ll
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+exi
+exit
+sudo pacman -Syu
+clear
+exit
+paru -Sua
+exit
+sudo pacman -Rsn yazi
+sudo pacman -S mc
+mc
+clear
+exit
+sudo pacman -Syu
+sudo pacman -Ss dotnet
+sudo pacman -S dotnet-sdk
+whereis dotnet
+exit
+sudo pacman -Rsn dotnet-sdk
+sudo pacman -Syu
+paru -Sua
+clear
+neofetch
+glxgears 
+prime-run glxgears
+ls
+clear
+nvidia-smi
+ls
+clear
+ls
+clear
+v .tmux.conf
+mc
+clear
+ll
+clear
+ll
+clear
+v .config/alacritty/alacritty.toml
+ls
+clear
+ll
+clear
+ll
+clear
+ll
+clear
+fastfetch
+clear
+nvidia-smi
+clear
+glxinfo 
+clear
+ls
+clear
+ls
+clear
+ll
+clear
+ll
+clear
+neofetch
+mc
+exit
+sudo pacman -Syu
+sudo pacman -S scrcpy
+cd git/ml_homework_solutions/
+git add .
+git commit -m "Lo"
+git push
+sudo pacman -Syu
+clear
+sudo pacman -Syu
+paru -Sua
+sudo pacman -S krfb
+clear
+exit
+sudo pacman -Rsn krfb
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+exit
+sudo pacman -Rsn protonvpn-app
+pacman -Q | grep protonvpn
+pacman -Q | grep proton
+sudo pacman -Rsn proton-vpn-gtk-app
+clear
+exit
+ls
+clear
+exit
+sudo pacman -Syu
+cpufetch
+sudo vim /etc/default/grub
+clear
+sudo pacman -Syu
+clear
+paru -Sua
+exit
+sudo pacman -Rsn filezilla putty
+sudo pacman -Syu
+paru -Sua
+exit
+npm uninstall -g @google/gemini-cli
+sudo npm uninstall -g @google/gemini-cli
+sudo pacman -Syu
+paru -Sua
+exit
+sudo pacman -Syu
+paru -Sua
+exot
+exit
+sudo pacman -Rsn neovim\
+sudo pacman -Rsn neovim
+sudo pacman -S emacs
+clear
+emacs .emacs
+sudo pacman -Syu
+emacs .emacs
+sudo pacman -Syu
+emacs --help
+emacs -t
+sudo pacman -Syu
+sudo vim /etc/default/grub
+sudo su
+reboot
+sudo pacman -Syu
+sudo su
+sudo dolphin
+dolphin --sudo
+lsblk
+cd /run/media/mrbogdanovich/7557d1e0-b4d8-4bbf-a63d-d16ef46ef103/usr/share/ca-certificates/mozilla/
+sudo cp /usr/share/ca-certificates/mozilla/chain_geant_ov_rsa_ca_4_full.pem .
+ls
+exit
+exit
+sudo pacman -Syu
+fastfetch
+exit
+sudo pacman -Syu
+paru -Sua
+reboot
+paru -Sua
+clear
+sudo pacman -Sc
+cd git/ml_homework_solutions/
+git add .
+git commit -m "more homeworks"
+git push
+ls
+clear
+ls
+clear
+ll
+clear
+ls
+clear
+ls 
+ll
+ll | where user=mrbogdanovich
+ll | where user = mrbogdanovich
+ll | where user == mrbogdanovich
+ll | where mode == rw-r--r--
+clear
+exit
+sudo pacman -Syu
+clear
+sudo pacman -Syu
+nmtui
+ping google.com
+sudo pacman -Syu
+clear
+exit
+sudo su
+exit
+lsblk
+sudo su
+lsblk
+sudo su
+sudo pacman -S exfatprogs
+sudo pacman -S exfat-utils
+clear
+sudo pacman -S dosfatutils
+sudo pacman -S dosfsutils
+sudo pacman -S dosfstools
+exit
+emacs dotfiles/.config/alacritty/alacritty.toml
+sudo su
+reboot
+sudo pacman -Syu
+sudo pacman -Syu\
+sudo pacman -Syu
+sudo pacman -S openvpn
+cd Downloads/
+unzip vpnbook-openvpn-de20.zip
+cd vpnbook-openvpn-de20/
+openvpn vpnbook-de20-tcp80.ovpn
+ping google.com
+openvpn vpnbook-de20-tcp80.ovpn
+sudo openvpn vpnbook-de20-tcp80.ovpn
+ip a
+ifconfig
+ipconfig
+ip a
+cd
+systemctl status sshd
+ssh mrbogdanovich@10.0.2.15 -p 2200
+ssh mrbogdanovich@10.0.2.15 -p 22
+sudo pacman -Syu
+paru -Sua
+reboot
+paru -Sua
+sudo pacman -S libalpm
+sudo pacman -Rsn paru
+cd AUR/
+ls
+rm -rf davinci-resolve/ paru/
+git clone https://aur.archlinux.org/yay.git
+cd yay/
+makepkg -si
+yay -Sua
+sudo pacman -Rsn paru-debug
+yay -Sua
+cleat
+clear
+exit
+sudo pacman -Syu
+sudo update-ca-certificates
+sudo update-ca-trust 
+sudo rm /usr/share/ca-certificates/mozilla/chain_geant_ov_rsa_ca_4_full.pem
+sudo update-ca-trust 
+cd Downloads/
+sud mv chain_geant_ov_rsa_ca_4_full.pem /usr/share/ca-certificates/mozilla/
+sudo mv chain_geant_ov_rsa_ca_4_full.pem /usr/share/ca-certificates/mozilla/
+sudo update-ca-trust 
+emacs dotfiles/.config/alacritty/alacritty.toml
+clear
+sudo pacman -Syu
+clear
+cd git/Grep_dot_py/
+ks
+ls
+clear
+python grep.py "fox" ./samples/sample_text.txt
+python grep.py "fox" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\s" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\w" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\s" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox?" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\\w" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\\s" ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\\s | fox." ./samples/sample_text.txt -ignoreCase
+python grep.py "fox\\W" ./samples/sample_text.txt -ignoreCase
+clear
+emacs dotfiles/.config/alacritty/alacritty.toml
+clear
+lsblk
+sudo su
+clear
+sudo su
+reboot
+sudo pacman -Syu
+ssh mrbogdanovich@10.0.2.15
+ip a
+ssh mrbogdanovich@10.0.2.15
+ssh mrbogdanovich@10.0.2.15 -p 2200
+ssh mrbogdanovich@192.168.0.89
+ssh mrbogdanovich@192.168.59.101 -p 2200
+ssh mrbogdanovich@10.0.2.15 -p 2200
+ssh mrbogdanovich@127.0.0.1 -p 2200
+yay -Sua
+sudo pacman -Syu
+yay -Sua
+exit
+sudo pacman -Syu
+clear
+yay -Sua
+clear
+exit
+scrcpy
+clear
+exit
+lsblk
+sudo su
+sudo pacman -Syu
+clear
+ls
+clear
+ll
+clear
+exit
+prime-run glxgears
+sudo pacman -Syu
+yay -Sua
+sudo pacman -Syu
+sudo pacman -S chromium
+sudo pacman -Rsn chromium
+sudo pacman -Syu
+emacs dotfiles/.config/alacritty/alacritty.toml
+exit
+clear
+exit
+sudo pacman -Syu
+reboot
+sudo pacman -Syu
+clear
+code git/Dotnet_Works/Courses/WEEK10/UserManagementFrontend/
+sudo pacman -Syu
+clear
+exit
+sudo pacman -S kitty
+clear
+exit
+ls
+clear
+sudo pacman -Rsn alacritty
+ls
+clear
+emacs dotfiles/.config/alacritty/alacritty.toml
+emacs dotfiles/.config/kitty/kitty.conf
+ls
+clear
+mc
+neofetch
+clear
+exit
+yay -S pywal16
+yay -S python-pywal16
+clear
+exit
+cd Downloads/
+ls
+mv wallpaperflare.com_wallpaper.jpg ~/walls
+wal --help
+cd
+wal -i walls/archuwu.jpg
+ls
+emacs dotfiles/.config/kitty/kitty.conf
+exit
+ls
+clear
+neofetch
+clear
+exit
+cat .cache/wal/colors-kitty.conf
+emacs dotfiles/.config/kitty/kitty.conf
+exit
+emacs dotfiles/.config/kitty/kitty.conf
+exit
+ls
+clear
+neofetch
+clear
+ls
+clear
+exit
+yay -Sua
+clear
+sudo pacman -Syu
+ls
+ll
+clear
+exirt
+exit
+ls
+clear
+neofetch
+ls
+clear
+exit
+nvidia-smi
+clear
+nvidia-smi
+clear
+ls
+clear
+ll
+clear
+exit
+wal -i walls/minimal_arch.jpg
+clear
+exit
+ls
+clear
+neofetch
+clear
+exit
+wal -i walls/windows10_ahh_arch.webp
+exit
+ls
+clear
+ls
+clear
+neofetch
+sudo pacman -Syu
+exit
+wal -i walls/archuwu.jpg
+clear
+exit
+neofetch
+nvidia-smi
+clear
+exit
+emacs dotfiles/.config/kitty/kitty.conf
+exit
+ls
+clear
+neofetch
+exit
+sudo pacman -Syu
+clear
+sudo pacman -S bat
+cat Documents/bobbys_mad_quest_to_kill_GOD.txt
+clear
+emacs dotfiles/.config/nushell/config.nu
+exit
+cat Documents/bobbys_mad_quest_to_kill_GOD.txt
+clear
+ls
+clear
+neofetch
+clear
+exit
+sudo pacman -S zsh
+clear
+emacs dotfiles/.config/nushell/config.nu
+emacs dotfiles/.config/kitty/kitty.conf
+emacs dotfiles/.tmux.conf
+ls
+clear
+whereis zsh
+emacs dotfiles/.tmux.conf
+ls
+clear
+ll
+clear
+exit
+v dotfiles/.config/nushell/config.nu
+ls
+clear
+exit
+neofetch
+clear
+ls
+clear
+ll
+clear
+exit
+pacman -Q | grep code
+sudo pacman -Rsn visual-studio-code-bin
+sudo pacman -S code
+clear
+exit
+v dotfiles/.config/alacritty/alacritty.toml
+sudo pacman -Syu
+systemctl status pacache
+systemctl status pacache.timer
+yay -Sua
+clear
+sudo pacman -Sc
+pacman -Sc
+sudo pacman -Sc
+sudo pacman -Scc
+v dotfiles/.config/alacritty/alacritty.toml
+sudo pacman -Syu
+yay -Sua
+clear
+exit
+sudo pacman -S qemu-full
+clear
+exit
+sudo pacman -Syu
+cd Games/
+unzip ~/Downloads/Hollow.Knight.v7442300.zip 
+ls
+sudo pacman -Syu
+nvidia-smi
+sudo pacman -Syu
+yay -Sua
+clear
+exit
+sudo pacman -Syu
+cd Isos/
+ll
+l
+ll
+sudo rm archlinux-2025.12.01-x86_64.iso
+ls
+ip a
+ipcalc virtbr0
+ipcalc virbr0
+ipcalc 192.168.122.1
+nmap 192.168.122.0/24
+ssh archiso@192.168.122.68
+ssh root@192.168.122.68
+clear
+ip a
+ipcalc 192.168.122.1
+nmap 192.168.122.0/24
+ssh jennifer@192.168.122.69
+clear
+sudo pacman -Syu
+yay -Sua
+clear
+exit
+ssh jennifer@192.168.122.69
+curl jennyweb.org
+exit
+shutdown now
+sudo pacman -Syu
+yay -Sua
+sudo pacman -Syu
+yay -Sua
+clear
+yay -S zen-browser-bin
+clear
+exit
+sudo pacman -S wezterm hyprland rofi-wayland swww waybar
+sudo pacman -S dunst
+sudo pacman -S grim slurp
+clear
+exit
+sudo systemctl disable docker-desktop
+sudo systemctl --user disable docker-desktop
+systemctl --user disable docker-desktop
+clear
+exit
+sudo pacman -Syu
+yay -Sua
+cd AUR/
+ls
+git clone https://aur.archlinux.org/paru.git
+sudo pacman -Rsn yay
+pacman -Q | grep yay
+sudo pacman -Rsn yay-debug
+cd paru/
+makepkg -si
+paru -Sua
+clear
+exit
+ls
+clear
+exit
+sudo su
+exit
+sudo pacman -Rsn wezterm
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo su
+reboot
+sudo pacman -Syu
+clear
+paru -Sua
+sudo pacman -Syu
+clear
+exit
+clear
+exit
+cd git/
+mkdir rust_project
+cd rust_project/
+cargo new hello
+code .
+cd hello
+code .
+clear
+ls
+clear
+cargo run
+clear
+clear
+exit
+ls
+clear
+v dotfiles/.config/hypr/configurations/windowrules.conf
+clear
+ls
+clear
+ll
+clear
+ll
+clear
+yazi
+clear
+config nu
+exit
+cd dotfiles/
+ls
+ll
+ll .config/hypr/configurations/
+v dotfiles/.config/nushell/config.nu
+ll
+clear
+exit
+barconf
+barstyle
+daemonconf
+clear
+v .Xresources
+clear
 ls
 clear
 exit
 ls
-ls | where #>20 and #<30
-ls | where row>20 and row<30
 clear
-neofetch
+ll
 clear
-cd Dot
+exi
+exit
 cd dotfiles/
-$nu.env-path
-v dotfiles/.config/nushell/env.nu
-v $nu.config-path
+mkdir bin
+ls
+cd bin/
+code .
+sudo pacman -S python-psutil
+exit
 cd dotfiles/
-ls
-ls --all
-cat .zoxide.nu
-source ~/.zoxide.nu
-cd dotfiles/
-clear
+stow .
 cd
-$nu.env-path
-v $nu.config-path
-weather
-cd Documents/
-cat MurderDrones_Iceberg.txt | grep "UZI"
-v MurderDrones_Iceberg.txt
-z
-z Do
+cd bin/
+ls
 clear
+daemonconf
+cd bin/
+ls
+ll
+python battery.py
+v battery.py
+python battery.py
+v battery.py
+python battery.py
+clear
+exir
+exit
+hyprland
+clear
+exit
+sudo pacman -Syu
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+nvidia-smi
+ls
+clear
+lll
+ll
+clear
+keyconf
+cat dotfiles/.config/nushell/config.nu
+globalvar
+waybar 
+v dotfiles/.config/waybar/config.jsonc
+clear
+v dotfiles/.config/waybar/style.css
+clear
+sudo pacman -S thunar
+clear
+nmtui
+ping google.com
+cd walls/
+ls
+swww --help
+swww img ~/walls/windows10_ahh_arch.webp
 cd
+v dotfiles/.config/waybar/style.css
+whereis pavucontrol
+clear
+ping google.com
+clear
+exit
+nmtui
+v dotfiles/.config/waybar/config.jsonc
+exit
+;s
 ls
 clear
-cd Downloads/
-firfox `Essay for Babeh.pdf`
-firefox `Essay for Babeh.pdf`
-clear
-sudo pacman -Syu
-clear
-cd
-clear
-clock
-clear
-pp
-clear
-curl -X http://localhost:3000/api/uploadthing
-curl -X POST http://localhost:3000/api/uploadthing
-curl --help
-curl -X POST http://localhost:3000/api/uploadthing | json
-curl -X POST http://localhost:3000/api/uploadthing | jq
-curl -X POST http://localhost:3000/api/uploadthing -d @data.json
-cd git/
-mkdir HospitalResident
-ll
-ls
-ls HospitalResidence/
-ls HospitalResident/
-z
-clear
-sudo pacman -Syu
-paru -Sua
-clear
-ls
-clear
-neofetch
-v dotfiles/.config/nushell/config.nu
-cd Documents/
-z Documents/
-v dotfiles/.config/nushell/config.nu
-z Documents/
-clear
-ls
-ls | sort-by size
-ls | sort-by size desc
-ls | sort-by size | reverse 
-clear
-ls
-ls | to json 
-ls | to nuon 
-ls | to yaml 
-ls | to html 
-clear
-sudo pacman -Syu
-paru -Sua
-clear
-neofetch
-cd git/java/
-ll
-ls
-clear
-cd ../HospitalResidence/
-git init
-ls
-ls --all
-clear
-git remote add origin git@github.com:sky11fca/HospitalResidence.git
-git branch -M main
-git add .
-git commit -m "init"
-git push -u origin main
-clear
-sudo pacman -Syu
-paru -Sua
-clear
-neofetch
-clear
-cd appimage/
-mv ~/Downloads/Nextcloud-3.16.4-x86_64.AppImage .
-ll
-ls
-chmod +x Nextcloud-3.16.4-x86_64.AppImage
-./Nextcloud-3.16.4-x86_64.AppImage
-v dotfiles/.config/hypr/configurations/environment.conf
-cd appimage/
-./Nextcloud-3.16.4-x86_64.AppImage
-clear
-neofetch
-cd dotfiles/.config/alacritty/
-ll
-ls
-open alacritty.toml
-open alacritty.toml | open font
-open alacritty.toml | ls font
-open alacritty.toml 
 ll
 clear
-cd
-v dotfiles/.config/nushell/config.nu
-ll
-ls --all
-v dotfiles/.config/nushell/config.nu
-ll
-ls -la
-clear
-ls -fa
-clear
-ll | where name=Documents
-ll | where name = Documents
-ll 
-ll | where name = Games
-ll | where name == Games
-ll | where name <> Games
+ping 8.8.8.8
+ping localhost
 clear
 ll
 clear
-sudo pacman -Syu
+appearanceconf
 clear
-cd git/java/W12/src/main/java/homework/
-ll
-cd dirtest/
-cp ~/Downloads/SKlauncher-3.2.10.jar .
-ll
-clear
-cd ..
-ll
-javac Main.java
-ll
-javac SampleTests.java
-clear
-ll
-javac Main.java Test.java TestClass.java
-javac SampleTests.java Test.java
-ll
-java Main Test.class
-java Main SampleTests
-java Main SampleTests.class
-java Main dirtest/SKlauncher-3.2.10.jar
-java Main ./SampleTests.class
-java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
-clear
-sudo pacman -Syu
-cd git/java/W12/src/main/java/homework/
-ll
-java Main SampleTests..class
-java Main SampleTests.class
-java Main SampleTests
-java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
-javac Main.java Test.java TestClass.java
-java Main ~/git/java/W12/src/main/java/homework/SampleTests.class
-cd git/java/W12/
-java -jar target/W12-1.0-SNAPSHOT.jar src/test/java/homework/test/SampleTests.java
-cd git/java/
-git add .
-git commit -m "LAST PUSH TO AP"
-git push
-clear
-cd git/
-mkdir Hospital
-cd Hospital/
-git init
-git remote add origin git@github.com:sky11fca/HospitalManagemet.git
-git branch -M main
-touch README.md
-git add .
-git commit -m "init"
-git push -u origin main
-sudo su -- postgres
-clear
-cd git/Hospital/
-git init
-git remote add origin git@github.com:sky11fca/HospitalManagement.git
-git branch -M main
-git commit -m "init"
-git add .
-git commit -m "init"
-git push -u origin main
-clear
-ll
-git add .
-git commit -m "Initial Setup"
-git push
-sudo pacman -Syu
-cd appimage/
-rm Nextcloud-3.16.4-x86_64.AppImage
-ll
-clear
-cd git/OS_2025/
-git add .
-got commit -m "Last Week Compulsory"
-git commit -m "Last Week Compulsory"
-git push
-clear
-cd Videos/
-yt-dlp -f mp4 'https://www.youtube.com/watch?v=J56MkSQHbag'
-ll
-clear
-sudo pacman -Syu
-clear
-cd git/GiftHub/
-git checkout master
-clear
-sudo pacman -Syu
-cd git/
-npx create-next-app@latest
-cd ultimateglitchstatus/
-ls
-git add .
-git remote add origin git remote add origin git@github.com:sky11fca/a_next_project.git
-git remote add origin git@github.com:sky11fca/a_next_project.git
-git branch -M main
-git commit -m "init"
-git push -u origin main
-npm run dev
-code git/ultimateglitchstatus/
-cd git/ultimateglitchstatus/
-cd ..
-rm -rf ultimateglitchstatus/
-npm create-
-npm create t3-app@latest
-cd ultimateglitchstatus/
-ll
-git remote add origin git@github.com:sky11fca/a_next_project.git
-git branch -M main
-git add .
-git commit -m "init"
-git push -u origin main
-code .
-cd git/
-rm -rf ultimateglitchstatus/
-npm create t3-app@latest
-cd ultimateglitchstatus/
-git commit -m "init"
-git remote add origin git@github.com:sky11fca/a_t3_app.git
-git branch -M main
-git push -u origin main
-code .
-cd git/
-rm irf ultimateglitchstatus/
-rm -rf ultimateglitchstatus/
-npm create t3-app@latest
-clear
-cd ultimateglitchstatus/
-code .
-bobbyarch3002
-clear
-sudo pacman -Syu
-neofetch
-clear
-htop
-clock
-cleae
-cd /opt/lampp/
-sudo ./lampp --start
-sudo ./lampp start
-clear
-cd htdocs/
-ll
-rm .htaccess router.php
-sudo rm .htaccess router.php
-ll
-sudo rm -rf local_greeter/
-sudo mkdir local_greeter
-sudo cp -r ~/git/Local_Greetings/* local_greeter/
-ll
-cd local_greeter/
-ll
-sudo .vim .htaccess
-sudo vim .htaccess
-sudo vim app/.htaccess
-cd Games/
-unzip ~/Downloads/Zuma.Deluxe.v1.0.zip 
-sudo pacman -Syu
-clear
-v Documents/MurderDrones_Iceberg.txt
-cd Games/
-unzip ~/Downloads/Zumas.Revenge.zip
-clear
-v Games/Zumas.Revenge/Zumas.Revenge/compat.cfg
-clock
-clear
-v Documents/some_BZ_shit.txt
-clock
-v Documents/Murder_Drones_Explained_By_A_Unemployed.txt
-sudo pacman -Syu
-paru -Sua
-clear
-cd /opt/lampp/
-sudo ./lampp start
-cd htdocs/
-sudo rm -rf local_greeter/
-sudo mkdir local_greeter
-sudo cp -r ~/git/Local_Greetings/* local_greeter/
-cd git/OS_2025/
-mkdir OS_SESSION_MODEL_2024
-code OS_SESSION_MODEL_2024/
-sudo pacman -Syu
-code git/OS_2025/OS_SESSION_MODEL_2024/
-cd git/OS_2025/
-mkdir IPC_templates
-code IPC_templates/
-clear 
-cd WEEK9/
-cod e.
-code .
-cd Downloads/
-unzip do_not_share.zip
-cd git/OS_2025/
-code .
-sudo pacman -Syu
-man sigaction
-man sighandler
-man 2 sighandler
-man 3 sighandler
-man sigsending
-cd git/OS_2025/
-mkdir ANOTHER_MODEL
-code ANOTHER_MODEL/
-code .
-man sem_open
-man sem_post
-man sem_wait
-man sem_close
-man sem_unlink
-code TP2_BazonBogdan/
-ll
-zip -r TP2_BazonBogdan TP2_BazonBogdan/
-zip TP2_BazonBogdan -r TP2_BazonBogdan/
-sudo pacman -Syu
-paru -Sua
-clear
-bluetoothctl
-sudo pacman -Syu
-unzip Downloads/DECRAFT-1.3-net452.zip
-ll
-clear
-mkdir decraft
-cd decraft/
-unzip ~/Downloads/DECRAFT-1.3-net452.zip
-wine DeCraftLauncher.exe
-clear
-sudo pacman -S winetricks
-winetricks dotnet472 vcrun2012 d3dcompiler_47
-wine DeCraftLauncher.exe
-killall -9 wine
-killall -9 wineserver
-winetricks dotnet472 vcrun2012 d3dcompiler_47
-htop
-wine DeCraftLauncher.exe
-ll
-cd git/
-git clone https://github.com/MultiMC/multimc-pkgbuild.git
-cd multimc-pkgbuild/
-makepkg -si
-sudo pacman -Syu
-cd Downloads/
-unzip ext1605_r4.zip
-cd ext1605_r4/
-ll
-cat README.txt
-clear
-ipconfig
-ifconfig
+ping 8.8.8.8
 ip a
-cd Downloads/ext1605_r4/
-java -jar ext1605_20_server.jar nogui
-java -Xmx2G -jar ext1605_20_server.jar nogui
-java -Xmx4G -jar ext1605_20_server.jar nogui
-v dotfiles/.config/alacritty/alacritty.toml
+ipcalc 192.168.0.137
+netstat
+clear
+nmtui
+clear
+kdeconnect-indicator 
+clear
+htop
+clear
+ll
+clear
+ls
+clear
+neofetch
+clear
+yazi
+clear
+globalvar
+yazi
+clear
+ll
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+exi
+exit
+notify-send "Sup"
+clear
+ls
+clear
+ll
+clear
+sudo pacman -S pamixer
+sudo pacman -S brightnessctl
+keyconf
+pacman -Ss xdg-desktop
+sudo pacman -S xdg-desktop-portal-hyprland
+clear
+ls
+clear
+fastfetch
+paru -Sua
+clear
+sudo pacman -Syu
+clear
+keyconf
+v bin/battery.py
+clear
+python bin/battery.py
+clear
+ll
+clear
+cat .config/nushell/config.nu
+barconf
+clear
+ls
+clear
+neofetch
+pacman -Ss hyprcursor
+v daemonconf
+daemonconf
+globalvar
+v dotfiles/.config/hypr/configurations/environment.conf
+daemonconf
+ls
+clear
+ls /usr/share/icons/
+daemonconf
+ls
+clear
+v dotfiles/.config/hypr/configurations/environment.conf
+sudo pacman -S nwg-look
+ls
+clear
+ls
+clear
+neofetch
+clear
+ls
+clear
+exi
+exit
+hyprctl hrypsunset temperature 2500
+hyprctl hyprsunset temperature 2500
+systemctl status hyprsunset.socket
+systemctl status hyprsunset
+hyprctl setcursor breeze-dark 24
+clear
+swww img ~/walls/windows10_ahh_arch.webp
+wal -i walls/windows10_ahh_arch.webp
+clear
+ls
+clear
+daemonconf
+exit
+ls
+clear
+appearanceconf
+cd dotfiles/
