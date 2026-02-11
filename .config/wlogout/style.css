@@ -1,4 +1,4 @@
-@import "../../../.cache/wal/colors.css"
+/*@import "../../../.cache/wal/colors.css"*/
 
 * {
 	background-image: none;
@@ -28,25 +28,25 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/lock.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/lock.png"));
 }
 
 #logout {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/logout.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/logout.png"));
 }
 
 #suspend {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/suspend.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/suspend.png"));
 }
 
 #hibernate {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/hibernate.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/hibernate.png"));
 }
 
 #shutdown {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/shutdown.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/shutdown.png"));
 }
 
 #reboot {
-    background-image: image(url("/home/skullface/dotfiles/.config/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/mrbogdanovich/dotfiles/.config/wlogout/icons/reboot.png"));
 }

@@ -11,6 +11,7 @@
       "hyprland/workspaces"
     ],
     "modules-center": [
+        "custom/current_workspace",
         "hyprland/window"
     ],
     "modules-right": [
@@ -26,6 +27,12 @@
         "format": "  ",
         "on-click": "rofi -show drun",
         "tooltip": false
+    },
+
+    "custom/current_workspace":{
+      "exec": "hyprctl activeworkspace -j | jq '.name'",
+      "format": "Workspace {}:",
+      "interval": 0
     },
 
     "hyprland/workspaces": {

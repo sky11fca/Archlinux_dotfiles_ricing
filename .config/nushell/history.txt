@@ -1762,3 +1762,130 @@ ls
 clear
 appearanceconf
 cd dotfiles/
+git add .
+git commit -m "We are so back"
+git push
+clear
+hyprctl --help
+hyprctl activeworkspace
+hyprctl activeworkspace -j
+hyprctl activeworkspace -j | jq 'name'
+sudo pacman -S jq
+barconf
+clear
+exit
+exit
+sudo pacman -S thunar
+clear
+exit
+ping 8.8.8.8
+exit
+sudo pacman -Syu
+clear
+ls
+clear
+cd git/
+mkdir calculus_solutions cg_labs
+cd cg_labs/
+git init
+mkdir WEEK1
+rm -rf WEEK1/
+touch README.md
+git add .
+git commit -m "init"
+git remote add origin git@github.com:sky11fca/computer_graphics_works.git
+git branch -M main
+git push -U origin main
+git push -u origin main
+sudo pacman -Syu
+globalvar
+v dotfiles/.config/hypr/configurations/environment.conf
+ls
+clear
+paru -Sua
+clear
+ls
+clear
+barstyle
+v dotfiles/.config/hypr/configurations/environment.conf
+clear
+ls
+clear
+exit
+nvidia-smi
+clear
+barstyle
+ls
+clear
+barstyle
+pacman -Ss hyprshot
+sudo pacman -S hyprshot
+clear
+exit
+keyconf 
+clear
+sudo pacman -S espeak
+pacman -Ss espeak
+sudo pacman -S espeak-ng
+clear
+mkdir dotfiles/.config/rofi
+touch dotfiles/.config/rofi/config.razi
+v dotfiles/.config/rofi/config.razi
+cd dotfiles/
+stow .
+rofi --help
+clear
+rofi --dump-config
+rofi -dump-config
+rofi -dump-config > ~/dotfiles/.config/rofi/config.razi 
+clear
+cd
+v dotfiles/.config/rofi/config.razi
+ls dotfiles/.config/rofi/
+rofi -dump-config > ~/dotfiles/.config/rofi/config.razi 
+rm dotfiles/.config/rofi/config.razi
+rofi -dump-config > ~/dotfiles/.config/rofi/config.razi 
+bash
+v dotfiles/.config/rofi/config.razi
+cd dotfiles/
+stow .
+cd
+v .config/rofi/config.rasi
+clear
+rm dotfiles/.config/rofi/config.razi
+bash
+rm .config/rofi/config.rasi
+cd dotfiles/
+stow .
+ls .config/rofi/
+cd
+bash
+v dotfiles/.config/rofi/config.rasi
+cd dotfiles/
+stow .
+v dotfiles/.config/rofi/config.rasi
+cd
+v dotfiles/.config/rofi/config.rasi
+clear
+ls
+clear
+sudo pacman -S hyprsunset
+hyprctl hyprsunset temperature 2500
+clea
+clear
+daemonconf
+hyprctl hyprsunset temperature 2500
+systemctl status hyprsunset
+hyprsunset temperature 2500
+hyprsunset --temperature 2500
+daemonconf
+;s
+clear
+ll
+clear
+neofetch
+man5 wlogout
+man 5 wlogout
+v dotfiles/.config/wlogout/layout
+v dotfiles/.config/wlogout/style.css
+cd dotfiles/
