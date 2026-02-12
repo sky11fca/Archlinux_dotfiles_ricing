@@ -1889,3 +1889,118 @@ man 5 wlogout
 v dotfiles/.config/wlogout/layout
 v dotfiles/.config/wlogout/style.css
 cd dotfiles/
+git add .
+git commit -m "reinstituted"
+git push
+clear
+cd
+clear
+sudo pacman -S feh
+clear
+clock
+clear
+zsh
+clear
+ls
+clear
+ll
+clear
+v dotfiles/.config/nushell/config.nu
+ll
+clear
+sudo pacman -S nm-applet
+pacman -Ss nm-applet
+pacman -Ss nm
+clear
+pacman -Ss networkmanager
+sudo pacman -S network-manager-applet
+nm-applet 
+barconf 
+daemonconf
+ls
+clear
+htop
+ls
+clear
+inputconf
+cat ~/.config/nushell/config.nu
+mouseconf
+clear
+nvidia-smi
+v dotfiles/.config/hypr/configurations/windowrules.conf
+yazi
+clear
+sudo pacman -S rofi-emoji
+barstyle
+python bin/battery.py
+v bin/battery.py
+python bin/battery.py
+clear
+barstyle
+barconf
+v dotfiles/.config/hypr/configurations/input.conf
+sudo pacman -S swaylock
+clear
+neofetch
+clear
+fastfetch
+cd dotfiles/
+stow .
+daemonconf 
+swww img ~/walls/win7_arch.jpg
+wal -i walls/win7_arch.jpg
+clear
+exit
+ls
+clear
+ll
+clear
+ll
+clear
+ls
+clear
+neofetch
+appearanceconf
+clear
+exit
+cava
+clear
+ll
+clear
+neofetch
+paru -Sua
+clear
+sudo pacman -Syu
+clear
+ls
+clear
+barstyle
+clear
+neofetch
+clear
+barconf 
+htop
+fastfetch
+clear
+ls
+clear
+sudo pacman -Syu
+clear
+paru -Sua
+clear
+v dotfiles/bin/vol_bright.sh
+cd dotfiles/
+stow .
+chmod +x bin/vol_bright.sh
+keyconf 
+clear
+ls
+clear
+htop
+clear
+ll
+clear
+yazi
+clear
+barstyle
+cd dotfiles/

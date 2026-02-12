@@ -11,12 +11,10 @@
       "hyprland/workspaces"
     ],
     "modules-center": [
-        "custom/current_workspace",
         "hyprland/window"
     ],
     "modules-right": [
         "tray",
-        "network",
         "pulseaudio",
         "backlight",
         "battery",
@@ -53,7 +51,7 @@
     },
 
     "hyprland/window": {
-        "format": "$ {title}",
+        "format": "{title}",
         "separate-outputs": true
     },
 
@@ -117,7 +115,7 @@
         "format": "{icon} {volume}% ",
         "format-bluetooth": "{volume}% {icon} ",
         "format-bluetooth-muted": "  {icon} ",
-        "format-muted": "  {format_source}",
+        "format-muted": "",
         "format-source": "{volume}%  ",
         "format-source-muted": " ",
         "format-icons": {

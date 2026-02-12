@@ -27,7 +27,7 @@ $env.config.show_banner = false
 source ~/.zoxide.nu
 
 alias cd = z
-alias ll = ls -la
+alias ll = ls -a
 alias v = nvim
 alias neofetch = fastfetch
 alias cat = bat

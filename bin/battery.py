@@ -12,7 +12,7 @@ LIMITS = {
 NOTIF_ID = 9991
 
 def notify(title, message, urgency="normal", icon="battery"):
-    os.system(f'dunstify -r {NOTIF_ID} -u {urgency} "{title}" "{messgae}" -i {icon}')
+    os.system(f'dunstify -r {NOTIF_ID} -u {urgency} "{title}" "{message}" -i {icon}')
 
 def main():
     last_notified = None 
