@@ -2004,3 +2004,2087 @@ yazi
 clear
 barstyle
 cd dotfiles/
+git add .
+git commit -m "back to business"
+git push
+v .config/rofi/config.rasi
+sudo pacman -Rsn gwenview dolphin
+clear
+ls
+clear
+cd
+ll
+clear
+barstyle
+clear
+v dotfiles/.config/dunst/dunstrc
+clear
+sudo pacman -Scc
+clear
+fastfetch
+clear
+sudo pacman -Rsn kate
+sudo pacman -Rsn kwrite
+clear
+barconf
+clear
+ls .local/share/applications/
+cat `.local/share/applications/Zen Browser.desktop`
+rm `.local/share/applications/Zen Browser.desktop`
+clear
+sudo pacman -Syu
+c;ear
+clear
+hyprctl monitors
+clear
+sudo pacman -S hyprlock
+cat dotfiles/.config/hypr/hyprlock.conf
+clear
+hyprlock
+v dotfiles/.config/hypr/configurations/environment.conf
+hyprlock
+clear
+sudo pacman -S mesa libglvnd
+clear
+hyprlock
+v dotfiles/.config/hypr/hyprlock.conf
+clear
+exitr
+exit
+sudo pacman -Rsn hyprlock
+clear
+ls
+clear
+ll
+clear
+neofetch
+cmatrix
+pipes
+clock
+clear
+asciiquarium
+ls
+clear
+yazi
+clear
+exit
+yazi
+lscpu
+lscpu | grep virtualization
+lscpu | grep Virtualization
+clear
+lscpu | grep Virtualization
+lscpu
+clear
+sudo pacman -Syu
+paru -Sua
+ls
+cat /etc/resolv.conf
+clear
+sudo pacman -Syu
+paru -Sua
+cd AUR/
+git clone https://aur.archlinux.org/docker-desktop.git
+cd docker-desktop/
+pacman -Q | grep qemu
+v PKGBUILD
+makepkg -si
+clear
+exit
+paru -Sua
+clear
+ping 192.168.0.1
+nmtui
+ping 192.168.0.1
+nmtui
+ping google.com
+nmtui
+ping google.com
+clear
+exit
+inputconf
+v dotfiles/.config/hypr/configurations/input.conf
+sudo pacman -S hyprpm
+pacman -Ss hyprpm
+pacman -Ss hypr
+hyprctl plugins list
+hyprctl plugins --help
+hyprctl plugins help
+pacman -Ss hyprland
+clear
+sudo pacman -Syu
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+sudo pacman -S hyprland-headers cpuid
+pacman -Ss hypr
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+sudo pacman -S mpv
+clear
+yazi
+sudo pacman -Syu
+paru -Sua
+clear
+barstyle
+barconf
+clear
+exit
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+shutdown now
+sudo pacman -Syu
+paru -Sua
+clear
+cd Games/
+unzip ~/Downloads/Celeste.v2025.02.07.zip
+clear
+exit
+bluetoothctl 
+bluetoothctl
+clear
+v dotfiles/.config/hypr/configurations/windowrules.conf
+yazi
+poweroff
+ls
+clear
+sudo pacman -Syu
+clear
+exit
+curl http://localhost:8080/hello
+curl http://127.0.0.1:8080/hello
+curl http://127.0.0.1:8081/hello
+curl http://localhost:5119/hello
+clear
+nmtui
+clear
+pacman -Ss networkmanager
+sudo pacman -S networkmanager-vpn-plugin-openvpn
+nmtui
+clear
+sudo systemctl restart NetworkManager
+nmtui
+clear
+nmtui
+clear
+exit
+sudo systemctl --user enable docker-desktop
+systemctl --user enable docker-desktop
+clear
+exit
+paru -Sua
+clear
+bluetoothctl\
+bluetoothctl
+systemctl enable bluetooth
+systemctl start bluetooth
+bluetoothctl
+clear
+cd git/
+mkdir metadata-private-extension
+sudo pacman -S rustup
+rustup default stable
+clear
+exit
+cd git/metadata-private-extension/
+ls
+rm -rf crypto/
+clear
+keyconf 
+clear
+nmtui
+sudo pacman -S networkmanager-openvpn
+nmtui\
+nmtui
+poweroff
+sudo pacman -Syu
+paru -Sua
+clear
+systemctl status docker-desktop
+systemctl --user status docker-desktop
+systemctl --user enable docker-desktop
+systemctl --user start docker-desktop
+clear
+neofetch
+sudo pacman -Syu
+paru -Sua
+clear
+yazi
+sudo pacman -Syu
+exit
+pacman -Ss packettracker
+paru -S packettracker
+paru -S packettracer
+cd AUR/
+ls
+git clone https://aur.archlinux.org/packettracer.git
+cd packettracer/
+nmtui
+poweroff
+sudo pacman -S thunderbird
+clear
+v dotfiles/.config/hypr/configurations/startup.conf
+sudo pacman -Syu
+cd AUR/packettracer/
+ls
+clear
+exit
+cd git/
+touch WTEC_retakes
+cd WTEC_retakes
+rm WTEC_retakes
+mkdir WTEC_retakes
+cd WTEC_retakes/
+cd git/WTE
+sudo rm -rf HTML_CSS_primer/
+rm -rf HTML_CSS_primer/
+git init
+mkdir HTML_CSS_Primer
+cd HTML_CSS_Primer/
+code .
+whatis nigga
+clear
+sudo pacman -Syu
+clear
+ping google.com
+sudo pacman -Syu
+clear
+cd git/cg_labs/
+ls
+mkdir WEEK1_py
+clear
+yazi
+sudo pacman -Syu
+clear
+cd AUR/packettracer/
+mv ~/Downloads/CiscoPacketTracer_900_Ubuntu_64bit.deb .
+ls
+makepkg -si
+ls
+clear
+exit
+whereis packetmanager
+whereis packettrace
+clear
+pacman -Q | grep packet
+/usr/lib/packettracer/packettracer.AppImage
+clear
+yazi
+sudo pacman -Syu
+clear
+paru -Sua
+cd AUR/docker-desktop/
+git pull
+ls
+clear
+..
+rm -rf docker-desktop/
+git clone https://aur.archlinux.org/docker-desktop.git
+cd docker-desktop/
+v PKGBUILD
+makepkg -si
+paru -Sua
+clear
+cd
+exit
+;s
+ls
+clear
+ll
+clear
+yazi
+clear
+neofetch
+clear
+cd git/\
+cd gi
+mkdir PHP_REST_API
+cd PHP_REST_API/
+pacman -Ss composer
+sudo pacman -S composer
+exit
+sudo pacman -S apache
+systemctl start apache
+sudo systemctl start httpd
+ls /srv/
+ls /srv/http/
+sudo rm /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+ping localhost
+curl -X GET http://localhost/api/index.php
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -X GET http://localhost/api/index.php
+curl -X GET http://localhost/api/index.php | jq
+curl --help
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -X GET http://localhost/api/index.php | jq
+curl -X GET http://localhost/api/index.php 
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+sudo rm -rf /srv/http/*
+curl -X GET http://localhost/api/index.php 
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -X GET http://localhost/api/index.php 
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -X GET http://localhost/api/index.php 
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -X GET http://localhost/api/index.php 
+curl -x GET http://localhost/api/index.php 
+curl -m GET http://localhost/api/index.php 
+curl -M GET http://localhost/api/index.php 
+curl http://localhost/api/index.php 
+sudo rm -rf /srv/http/*
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+curl -x GET http://localhost/api/index.php 
+curl -X GET http://localhost/api/index.php 
+ping localhost/api
+ping localhost/api/index.php
+ping http://localhost/api/index.php
+curl -X GET http://localhost/api/index.php 
+whereis php
+curl -X GET http://localhost:8080/api/index.php 
+php -S localhost:8080
+exit
+exit
+php -v
+sudo a2enmod php8.5
+sudo pacman -S a2enmod
+clear
+sudo systemctl stop httpd
+clear
+sudo pacman -Syu
+paru -Sua
+cd git/
+mkdir CC_work
+cd CC_work/
+code .
+exit
+mkdir git/CC_Homeworks
+cd git/CC_Homeworks/
+git init
+git add .
+git commit -m "init"
+git add .
+git commit -m "init"
+git remote add origin git@github.com:sky11fca/CC_Homeworks.git
+git branch -M main
+touch hello
+git add .
+git commit -m "init"
+git push -u origin main
+clear
+cd WEEK1/
+chmod +x exercise.py
+python exercise.py
+yazi
+curl --request POST \ <\n>  --url 'https://www.virustotal.com/vtapi/v2/file/scan' \<\n>  --form 'apikey=570c4789d5b060a294bdb74e8afd8c31057bc6e72910cc8a675d3f451f8540a4' \<\n>  --form 'file=/home/mrbogdanovich/bin/pipes' \ 
+curl add -v --request POST \ <\n>  --url 'https://www.virustotal.com/vtapi/v2/file/scan' \<\n>  --form 'apikey=570c4789d5b060a294bdb74e8afd8c31057bc6e72910cc8a675d3f451f8540a4' \<\n>  --form 'file=/home/mrbogdanovich/bin/pipes' 
+bash 
+exit
+sudo pacman -Syu
+clear
+ls
+clear
+neofetch
+ll
+clear
+pipes
+ls
+clear
+yazi
+nvidia-smi
+v dotfiles/.config/hypr/configurations/environment.conf
+nvidia-smi
+paru -Sua
+clear
+sudo pacman -Syu
+clear
+exit
+ls
+clear
+yazi
+clear
+sudo pacman -Syu
+sudo pacman -S wtype
+cd git
+ls
+sudo rm -rf StandaloneBlazorWASMTest/ SillyApp/ MOAR_Meleu_Dotnet/
+mkdir FeelingFine
+cd FeelingFine/
+git init
+git remote add origin git@github.com:sky11fca/Feeling_Fine_dotnet.git
+git branch -M main
+clear
+touch README.md
+v README.md
+ls
+mkdir DotnetApi PythonAI WebUI
+rm -rf DotnetApi/
+ls
+cd git/Dotnet2_courses/
+ls
+tree .
+cd git/FeelingFine/
+tree .
+ls
+sudo rm -rf DotnetApi/
+ls
+cd git/Dotnet2_courses/
+code .\
+code .
+barconf
+barstyle
+barconf
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+cd Documents/
+touch steamed_hams_explained_by_someone_who_had_steamed_clams.txt
+v steamed_hams_explained_by_someone_who_had_steamed_clams.txt
+clear
+ls
+yazi .
+clear
+cd
+sudo pacman -Syu
+clear
+ls
+clear
+htop
+clear
+sudo pacman -Syu
+paru -Sua
+yazi
+ping http://localhost:5000
+curl http://localhost:5000
+clear
+exit
+cd git/FeelingFine/
+code .
+docker-compose up -d
+docker compose up -d
+systemctl status docker
+systemctl status docker.socket
+systemctl status docker-desktop
+systemctl --user status docker-desktop
+systemctl --user start docker-desktop
+docker compose up -d
+cd AUR/docker-desktop/
+git fetch
+git rebase
+git pull
+git pull --rebase
+git merge
+git merge --rebase
+git merge --continue
+..
+ls
+rm -rf docker-desktop
+git clone https://aur.archlinux.org/docker-desktop.git
+cd docker-desktop/
+v PKGBUILD
+makepkg -si
+clear
+paru -Sua
+clear
+exit
+cd git/
+git clone git@github.com:sky11fca/sky11fca.github.io.git
+cd sky11fca.github.io/
+rm -rf ultimate_glitch_status/
+ls
+clear
+yazi
+cd git/FeelingFine/
+ls
+code .
+clear
+curl -X GET http://localhost:5160/api/v1/review?businessId=509b7add-6f5f-4758-8416-270809bf4839
+curl -X GET http://localhost:5160/api/v1/review?businessId=509b7add-6f5f-4758-8416-270809bf4839 | jq
+cd git/FeelingFine/
+git add .
+git commit -m "Implementation of UI and .NET API"
+git push
+git push -u origin main
+git push -u origin main --rebase
+git push -u origin main --force
+code git/FeelingFine/
+cd git/Dotnet2_courses/
+code .
+cd git/FeelingFine/
+git add .
+git commit -m "Finished Sprint 1"
+git push
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+yazi
+cd git/FeelingFine/
+code .
+htop
+cd git
+git clone git@github.com:sky11fca/sky11fca.github.io.git
+git clone git@github.com:sky11fca/sky11fca
+cd sky11fca/
+ls
+mkdir vids
+mv ~/Downloads/demo-section.mp4 vids/
+git add .
+git commit -m "Added a video"
+git push
+cd git/sky11fca/
+mkdir img
+cp `~/Pictures/Corporate meme to share on Linked In.jpg` img/
+git add .
+git commit -m "Added a picture"
+git push
+rm -rf vids/ img/
+git add .
+git commit -m "cleansed"
+git push
+exit
+yazi
+clear
+exit
+daemonconf 
+clear
+nvidia-smi
+clear
+daemonconf 
+clear
+htop
+sudo pacman -Syu
+cd git/cg_labs/
+ls
+mkdir HW1 HW2 HW3 HW4
+mkdir HW1/CG
+mkdir HW1/S\G
+git add .
+git commit -m "first lab"
+git push
+clear
+exit
+yazi
+clear
+exit
+cd git/calculus_solutions/
+ls
+code .
+yazi
+barconf
+clear
+exit
+swww img ~/walls/win7_arch.jpg
+sudo pacman -Syu
+daemonconf 
+paru -Sua
+daemonconf 
+kdeconnectd 
+clear
+curl qrencode.de
+curl qrencode.de/https://www.youtube.com/watch?v=gc0li5taArU
+curl http://qrencode.de/https://www.youtube.com/watch?v=gc0li5taArU
+curl https://qrencode.de/https://www.youtube.com/watch?v=gc0li5taArU
+curl qrcode.show/https://www.youtube.com/watch?v=gc0li5taArU
+systemctl enable bluetooth
+bluetoothctl
+exit
+curl -X GET developer.mozilla.org
+curl GET developer.mozilla.org
+curl developer.mozilla.org
+systemctl status apache
+systemctl status httpd
+systemctl start httpd
+curl -X POST http://localhost/api/index.php
+ip a
+curl -X POST http://172.17.50.10/api/index.php
+curl -X POST http://172.17.50.10/api/index.php | jq
+systemctl stop httpd
+clear
+exit
+curl -X POST http://localhost:8080/api/index.php
+curl -X POST http://localhost:8080/api/index.php | jq
+clear
+exit
+curl -X POST http://localhost:8080/api/index.php | jq
+exit
+curl -X POST http://localhost:8080/api/index.php | jq
+curl -X PUT http://localhost:8080/api/index.php | jq
+curl -X OPTIONS http://localhost:8080/api/index.php | jq
+curl -X GET http://localhost:8080/api/index.php | jq
+cd git/WTEC_retakes/
+ls
+code .
+cd git/sky11fca.github.io/
+ls
+code .
+curl -X GET http://localhost:8080/api | jq
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+yazi
+poweroff
+cd git/calculus_solutions/
+ls
+cd WEEK1/
+ls
+ll
+mv .venv/ requirements.txt ../
+cd ..
+ll
+htop
+cd Feeling
+ls\
+ls
+clear
+code .
+barconf
+poweroff
+curl -x GET http://localhost:8000
+curl -x GET http://localhost:8000/
+curl -x GET http://localhost:8000/hello/bobby
+curl -X GET http://localhost:8000/hello/bobby
+curl -X GET http://localhost:8000/hello/bobby | jq
+curl -X GET http://localhost:8000/ | jq
+curl -X GET http://localhost:8000/ai/imnotokay | jq
+curl -X GET http://localhost:8000/ | jq
+curl -X GET http://localhost:8000 | jq
+curl -X GET http://localhost:8000/ai/imnotokay | jq
+curl -X GET http://localhost:8000/ai/imokay | jq
+exit
+curl -X GET http://localhost:8000/ai/im_okay | jq
+curl -X GET http://localhost:8000/ai/im_feeling_great | jq
+curl -X GET http://localhost:8000/ai/this_is_grrrrrrrrreat | jq
+cd git/FeelingFine/
+ls
+touch .gitignore
+v .gitignore
+curl -X POST -H "Content-Type: application/json" -d '{"raw_text":"Your services are great! I enjoy the UI, so intuitive even a baby can use it","submitted_on":"google"}' http://localhost:8000/api/reviev/
+curl -X POST "http://localhost:8000/api/review" \
+zsh
+exit
+yazi
+clear
+cd git/PHP_REST_API/api/
+ls
+mv database.db database.sqlite
+cd git/calculus_solutions/
+ls
+cod e.
+code .
+cd git/CC_work/
+ls
+code .
+paru -S postman-bin
+cd git/CC_work/
+code .
+exit
+curl -X GET "http://localhost:8000/api/help"
+curl -X GET "http://localhost:8000/api/api/help"
+curl -X GET "http://localhost:8080/api/api/help"
+curl -X GET "http://localhost:8080/api/help"
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/item" | jq
+curl -X POST "http://localhost:8000/api"
+curl -X POST "http://localhost:8080/api"
+curl -X POST "http://localhost:8080/api" | jq
+curl -X OPTIONS "http://localhost:8080/api" | jq
+exit
+sudo pacman -Syu
+clear
+cd Games/
+ls
+sudo rm -Rf ULTRAKILL.v2025.03.26/
+unzip ~/Downloads/ULTRAKILL.v2026.02.25.zip
+clear
+exit
+clear
+cd .steam/steam/steamapps/compatdata/
+tree .
+clear
+cd Games/ULTRAKILL.v2026.02.25/ULTRAKILL.v2026.02.25/Saves/
+ls
+cd Slot1/
+ls
+hexdump generalprogress.bepis
+okteta generalprogress.bepis
+okteta lvl8progress.bepis
+sudo pacman -S bc
+bash
+sudo pacman -Syu
+clear
+paru -Sua
+yazi
+sudo pacman -Syu
+clear
+ssh root@192.168.122.42
+ssh-copy-id root@192.168.122.42
+clear
+ssh root@192.168.122.42
+sudo pacman -Syu
+cd Documents/
+touch ULTRAKILL_got_me_like_(now_with_fraud_enemies).txt
+v `ULTRAKILL_got_me_like_(now_with_fraud_enemies).txt`
+v dotfiles/.config/hypr/configurations/plugins.conf
+clear
+dae
+daemonconf 
+curl -X GET "http://localhost:8080/api/help" | jq
+systemctl status postgresql
+systemctl start postgresql
+sudo systemctl start postgresql
+systemctl status postgresql
+pg_upgrade --help
+pg_upgrade
+su -- postgres
+sudo su -- postgres
+bash
+clear
+exir
+exit
+sudo pacman -S mariadb
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+systemctl start mariadb
+sudo mariadb
+sudo mariadb -u mysql
+sudo mariadb -u root
+sudo mariadb -u root -p
+sudo mariadb -u bobby -p
+mariadb -u bobby -p
+sudo mariadb -u root -p
+curl -X GET "http://localhost:8080/api/help" | jq
+ping localhost:3306
+ping http://localhost:3306
+ping http://127.0.0.1:3306
+systemctl status mariadb
+clear
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/help"
+find / -type f -name "php.ini"
+bash
+clear
+curl -X GET "http://localhost:8080/api/help"
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/help"
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/item" | jq
+exit
+cd git/cg_labs/
+ls
+ls HW1/
+rm -rf HW1/
+mkdir HW1
+mkdir HW1/CG
+mkdir HW1/SG
+ls HW1/
+cclear
+clear
+code git/cg_labs/HW1/
+sudo pacman -Syu
+cd git/FeelingFine/
+git add .
+git commit -m "First iteration of AI"
+git push
+ls
+ll
+cat .gitignore
+git commit --ammend -all
+git commit --ammend --all
+git commit --amend --all
+git commit --amend --all -m "Showed Secret"
+git push
+clear
+sudo pacman -Syu
+paru -Sua
+yazi
+sudo pacman -Syu
+poweroff
+systemctl start mariadb
+systemctl enable mariadb
+sudo pacman -Syu
+clear
+paru -Sua
+clear
+exit
+cd git/FeelingFine/
+code .
+clear
+cd git/calculus_solutions/
+code .
+cd git/sky11fca.github.io/
+code .
+ls
+cd RestaurantManager/
+ls
+php --help
+barstyle
+php -S localhost:8080
+exit
+ping 192.168.122.41
+curl -X GET "http://192.168.122.41/api/item" | jq
+curl -X GET "http://192.168.122.41/api/item"
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api"
+curl -X GET "http://192.168.122.41/api/"
+curl -X GET "http://192.168.122.41/api/help"
+ssh root@192.168.122.42
+exit
+curl -X GET "http://192.168.122.41/api/api/help"
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api/api/help"
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api"
+curl -X GET "http://192.168.122.41/api/"
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api/help/"
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api/index.php/help"
+curl -X GET "http://192.168.122.41/api/index.php"
+exit
+ssh root@192.168.122.41
+exit
+ssh root@192.168.122.41
+cd git/
+ls
+cd PHP_REST_API/
+ls
+mkdir ../CC_Homeworks/HW1
+cp -r * ../CC_Homeworks/HW1/
+ll ../CC_Homeworks/HW1/
+cp .htaccess ../CC_Homeworks/HW1/
+cd ../CC_Homeworks/HW1/
+ls
+ll
+clear
+cd ..
+git add .
+git commit -m "First Homework"
+git push
+sudo pacman -Syu
+paru -Sua
+ping qrenco.de
+curl qrenco.de/https://www.youtube.com/watch?v=jPU3BtF8zY8
+sudo pacman -Syu
+paru -Sua
+exit
+cd git/cg_labs/
+ls
+git add .
+git commit -m "Homework 1, Computer Graphics, Implemented: Sierpinski Carpet and Mandlebrot Set"
+git push
+cd git/CC_Homeworks/
+git add .
+git commit -m "Homework 1 finished"
+git push
+clear
+exit
+cd git/PHP_REST_API/
+ls
+tar --help
+tar --help | less
+tar -cf PHP_RESTful_API.tar *
+ls
+gzip PHP_RESTful_API.tar
+ls
+sudo pacman -S kommit
+cd git/FeelingFine/
+git add ,
+git add .
+git commit -m "Added client"\
+git commit -m "Added client"
+git push
+cd HW1
+ls
+cp ../../PHP_REST_API/ls
+cp ../../PHP_REST_API/* .
+cp -r ../../PHP_REST_API/* .
+ls
+cd CC_Home
+git add .
+git commit -m "Refactored"
+git push
+ls
+cd HW1/
+ls
+rm PHP_RESTful_API.tar.gz
+..
+clear
+ls
+git add .
+git commit -m "Refactored"
+git push
+clear
+exit
+sudo pacman -Syu
+clear
+barconf
+barstyle
+barconf
+barstyle
+barconf
+paru -S emojicode
+clear
+cd git/FeelingFine/
+ls
+git stash pop
+git add .
+git commit -m "Refactored"
+git stash pop
+git stash pop --force
+git stash pop
+ls
+tree DotnetApi/
+clear
+git commit -m "Refactored"
+git add .
+git commit -m "Refactored"
+git push
+git pull
+git push --force
+git pull
+clear
+cd git/
+mkdir arch-linux-is-the-best
+cd arch-linux-is-the-best/
+touch CMakeList
+ls
+mkdir src bin
+touch src/main.c
+v src/main.c
+ls
+mv CMakeList CMakeList.txt
+ls
+g++ -v
+exit
+cd git/cg_labs/HW1/CG/
+ls
+cat CMakeLists.txt
+v CMakeList.txt
+la src/
+ls src/
+mv src/main.c src/main.cpp
+cmake 
+cmake --build . 
+cmake --build
+exit
+mkdir build
+cd build/
+cmake ../
+cd ..
+ls
+mv CMakeList.txt CMakeLists.txt
+cd build/
+cmake ../
+ls
+cat make
+cat Makefile
+make
+ls
+cd ..
+ls
+ls bin/
+./bin/arch-linux-is-the-best
+clear
+cd bin/
+ls
+mv arch-linux-is-the-best ~/bin/
+cd
+clear
+arch-linux-is-the-best 
+cd git/arch-linux-is-the-best/
+cat CMakeLists.txt
+rm -rf build/
+ls
+cmake --build .
+mkdir build
+cmake build/
+ls
+cd build/
+cmake ../
+ls
+make
+cd ..
+ls
+cd bin/
+ls
+./arch-linux-is-the-best
+cd
+clear
+arch-linux-is-the-best 
+seq 1 100 | jq '"Arch is the best"'
+seq 1 100 | jq "Arch is the best"
+seq 1 100 | jq "Arch-is-the-best"
+seq 1 100 | jq '"Arch is the best"'
+nvidia-smi
+clear
+exit
+systemctl --user status docker-desktop
+systemctl status libvirtd
+systemctl disable libvirtd
+systemctl stop libvirtd
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+sudo pacman -Syu
+sudo pacman -Rsn firefox
+systemd-analyze --blame
+systemd-analyze --help
+systemd-analyze blame
+systemctl start libvirtd
+systemctl stop libvirtd
+reboot
+fastfetch
+pacman -Ss ollama
+sudo pacman -S ollama ollama-cuda
+systemctl status ollama
+systemctl enable ollama --now
+clear
+ollama pull qwen3.5:0.8b
+ollama run qwen3.5:0.8b
+clear
+ollama list
+v
+cd Documents/
+ollama pull gemma:2b
+ollama --help
+ollama rm qwen3.5:0.8b
+ollama rm deepseek-r1:1.5b
+ollama list
+ollama run gemma:2b
+exit
+cd git/FeelingFine/
+ls
+code .
+paru -S brave-bin
+globalvar
+sudo pacman -Rsn zen-browser
+pacman -Q | grep zen
+sudo pacman -Rsn zen-browser-bin
+clear
+exit
+v dotfiles/.config/hypr/configurations/windowrules.conf
+v dotfiles/.config/hypr/configurations/appearance.conf
+clear
+exit
+whereis gamescope
+sudo pacman -S gamescope
+reboot
+ls
+clear
+exit
+sudo pacman -Syu
+sudo pacman -Rsn rofi-wayland hyprland swww waybar
+sudo pacman -Rsn rofi hyprland swww waybar
+sudo pacman -Rsn rofi hyprland swww waybar rofi-emoji
+exit
+sudo pacman -Rsn thunar
+sudo pacman -S dolphin
+sudo pacman -Rsn hyprshot
+sudo pacman -Rsn swaylock
+sudo pacman -Rsn grim slurp
+exit
+sudo pacman -Rsn yazi
+exit
+sudo pacman -S gwenview
+paru -Sua
+clear
+exit
+cd Downloads/
+wine geode-installer-v5.3.0-win.exe
+sudo pacman -Scc
+sudo pacman -Rsn feh
+pacman -Ss ghostty
+sudo pacmn -S ghostty
+sudo pacman -S ghostty
+clear
+ls
+clear
+exit
+ls
+clear
+sudo pacman -Syu
+clear
+v dotfiles/.config/ghostty/config
+ls
+cat .cache/wal/ghostty.conf
+v dotfiles/.config/ghostty/config
+ls
+clear
+neofetch
+clear
+v dotfiles/.config/ghostty/config
+ls
+clear
+neofetch
+exit
+cd git/FeelingFine/
+code .
+cd git/
+git clone git@github.com:sky11fca/Offline_messenger.git
+clear
+exit
+exit
+sudo pacman -Syu
+paru -Sua
+cd git/
+ls
+cd CC_work/
+ls
+mkdir WEEK4
+code .
+systemctl status libvirtd
+sudo systemctl enable libvirtd --now
+cd git/CC_Homeworks/
+ls
+mkdir HW2
+cd HW2/
+mkdir WebUI
+exit
+sudo pacman -S konsole
+clear
+exit
+sudo pacman -Rsn ghostty
+clear
+ls
+clear
+ll
+clear
+ls
+cleaer
+clear
+ls
+clear
+ollama run gemma:2b
+exir
+exit
+tmux
+clear
+oll
+nvidia-smi
+exit
+ollama run gemma:2b
+clear
+exit
+ls
+clear
+exit
+ls
+clea
+rclear
+clear
+neofetch
+htop
+clear
+exit
+htop
+cd git/FeelingFine/
+ls
+clear
+code .
+sudo pacman -S discover
+ollama list
+ollama list --help
+ollama ls
+ollama ls | tr -s " "
+ollama ls | tr -s " " | cut -d " " -f1
+ollama run gemma:2b
+exit
+ping localhost:8080
+clear
+adb 
+clear
+exit
+sudo pacman -Syu
+clear
+exit
+sudo pacman -S ncdu
+ncdu
+ncdu /
+clear
+exit
+sudo pacman -Rsn ollama-cuda
+clear
+exit
+clear
+exit
+ncdu /
+cd .dotnet/library-packs/
+ls
+ls -lah
+ls -la
+sudo rm microsoft.maui.*
+cd ..
+ls
+ncdu /
+pacman -Scc
+sudo pacman -Scc
+paru -Scc
+clear
+exity
+exit
+sudo paccache -r
+du -sh /var/cache/pacman/pkg/
+du -h /var/cache/pacman/pkg/
+bash
+exit
+bash
+exit
+clear
+exit
+cd git/
+git clone git@github.com:sky11fca/smart_theater_simulation.git
+cd smart_theater_simulation/
+ls
+touch README.md
+git add .
+git commit -m "init"
+git push
+clear
+ollama run gemma:2b
+sudo pacman -S ollama-cuda
+ollama run gemma:2b
+exit
+sudo pacman -Syu
+paru -Sua
+cd git/sky11fca.github.io/
+ls
+code .
+ollama run gemma:2b
+exi
+exit
+cd Games/
+unzip ~/Downloads/ULTRAKILL.v2026.03.04.zip
+exit
+cd git/cg_labs/HW1/
+ls
+cd CG/
+ls
+cat CMakeLists.txt
+systemctl status httpd
+systemctl start httpd
+clear
+cd /srv/http
+ls
+sudo rm -rf *
+ls
+sudo cp -r ~/git/PHP_REST_API/* /srv/http/
+ls
+sudo cp ~/git/PHP_REST_API/.htaccess .
+ls
+ll
+curl -X GET "http://localhost/api/help"
+curl -X GET "http://localhost/api/index.php"
+curl -X GET "http://localhost/api/index.php/api/help"
+curl -X GET "http://localhost/api/help"
+clear
+sudo vim /etc/httpd/conf/httpd.conf
+curl -X GET "http://localhost/api/help"
+curl -X GET "http://localhost/api"
+curl -X GET "http://localhost/api/"
+curl -X GET "http://localhost/api/index.php"
+curl -X GET "http://localhost/api/help"
+sudo vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+curl -X GET "http://localhost/api/help"
+curl -X GET "http://localhost/api/index.php"
+curl -X GET "http://localhost/api/help"
+clear
+systemctl restart httpd
+curl -X GET "http://localhost/api/help"
+clear
+systemctl stop httpd
+systemctl start httpd
+curl -X GET "http://localhost/api/help"
+clear
+sudo vim /etc/httpd/conf/httpd.conf
+curl -X GET "http://localhost/api/help"
+sudo a2enmod rewrite
+sudo pacman -S a2enmod
+sudo vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+curl -X GET "http://localhost/api/help"
+curl -X GET "http://localhost/api/index.html"
+curl -X GET "http://localhost/api/index.php"
+sudo vim .htaccess
+systemctl restart httpd
+curl -X GET "http://localhost/api/"
+curl -X GET "http://localhost/api"
+curl -X GET "http://localhost/api/help"
+sudo vim /etc/httpd/conf/httpd.conf
+sudo pacman -S php
+sudo vim .htaccess
+sudo vim /etc/httpd/conf/httpd.conf
+sudo vim /etc/httpd/modules
+sudo vim .htaccess
+systemctl restart httpd
+curl -X GET "http://localhost/api/help"
+sudo vim .htaccess
+curl -X GET "http://localhost/api/help"
+sudo vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+systemctl status httpd
+pacman -Ss libphp
+pacman -Ss php
+pacman -Ss php-apache
+sudo pacman -S php-apache
+systemctl restart httpd
+systemctl status httpd
+sudo vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+systemctl status httpd
+sudo vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+curl -X GET "http://localhost/api/help"
+curl -X GET "http://localhost/api/help" | jq
+exit
+ping 192.168.122.41
+clear
+curl -X GET "http://192.168.122.41/api/help" | jq
+curl -X GET "http://192.168.122.41/api/help"
+curl -X GET "http://192.168.122.41/api/help" | jq
+exit
+ssh root@192.168.122.41
+exit
+cd git/
+git clone git@gitlab.com:sky11fca/another-docker-primer.git
+cd another-docker-primer/
+ls
+docker compose up -d
+sudo pacman -Syu
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+neofetch
+ollama run gemma:2b
+clear
+exit
+ping google.com
+sudo pacman -Syu
+paru -Sua
+sudo pacman -Syu
+paru -Sua
+sudo pacman -Syu
+pacman -Ss dolphin
+pacman -Ss konsole
+exit
+cd git/cg_labs/
+ls
+git pull
+git commit -m "smt"
+git add .
+git commit -m "smt"
+git pull
+sudo pacman -Syu
+cd Videos/
+yt-dlp -f mp4 https://www.youtube.com/watch?v=Q9Ue1NUIJ6A
+cd git/smart_theater_simulation/
+ls
+git pull
+ls
+rm `Begin 1.pkt`
+exi
+exit
+cd git/smart_theater_simulation/
+ls
+git add .
+git commit -m "Done My Part"
+git push
+systemctl --user status docker-desktop
+systemctl --user disable docker-desktop
+systemctl status docker
+systemctl disable docker
+sudo pacman -Syu
+cd git/smart_theater_simulation/
+git pull
+clear
+exit
+cd git/smart_theater_simulation/
+git add .
+git commit -m "Modified the smart door implementation"
+git push
+exit
+curl -X GET "http://localhost:8080/api/help" | jq
+exit
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/items"
+curl -X GET "http://localhost:8080/api/items" | jq
+curl -X GET "http://localhost:8000/api/ai/chat"
+curl -X GET "http://localhost:8000/api/ai/chat" | jq
+systemctl enable docker
+sudo systemctl enable docker
+systemctl enable docker.socket
+systemctl --user enable docker-desktop
+reboot
+ping 172.20.0.3
+curl -X GET "http://172.20.0.3:8080/api/help<\n>"
+curl -X GET "http://172.20.0.3:8080/api/help"
+curl -X GET "http://172.18.0.3:8080/api/help"
+curl -X GET "http://172.18.0.3:8080/api/help" 
+cd git/smart_theater_simulation/
+git pull
+git pull --rebase
+ls
+curl -X GET "http://localhost:8080/api/help" 
+curl -X GET "http://localhost:8080/api/help" | jq
+curl -X GET "http://localhost:8080/api/item"
+curl -X GET "http://localhost:8080/api/items" | jq
+clear
+exit
+cd git/CC_Homeworks/HW2/
+ls
+cd PhpApi/
+ls
+docker compose up -d
+curl -X GET "http://localhost:8080/api/items" | jq
+docker compose down
+clear
+exit
+exit
+cd CC_Home
+cd HW2/
+ls
+cd PhpApi/
+ls
+docker compose up -d
+docker compose down
+clear
+exit
+cd git/smart_theater_simulation/
+git pull
+ls
+cd git/CC_Homeworks/HW2/ls
+cd git/CC_Homeworks/HW2/
+ls
+cd PhpApi/
+docker compose up -d
+curl -X GET "http://localhost:8080/api/items" | jq
+clear
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+curl -X POST "http://localhost:8080/api/purchase/item-1" \
+curl --help
+curl -X POST "http://localhost:8080/api/purchase/item-1" --data {"ammount":1}
+clear
+docker compose down
+docker compose up -d
+curl -X GET "http://localhost:8080/api/purchases" | jq
+curl -X PUT "http://localhost:8080/api/item-7/rotten" | jq
+curl -X PUT "http://localhost:8080/api/items/item-7/rotten" | jq
+docker compose down
+docker compose up -d
+cd CC_Home
+cd HW2/
+ls
+cd AuthenticationService/
+ls
+docker compose up -d
+ping http://localhost:5000
+docker compose down
+docker compose down
+docker compose up -d
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+htop
+docker compose down
+docker compose up -d
+docker compose down
+exit
+tmux
+htop
+ls
+clear
+sudo pacman -Rsn nano
+sudo pacman -Syu
+paru -Sua
+cd CC_H
+cd HW2/AuthenticationService/
+ls
+docker compose up -d
+docker compose down
+clear
+ollama pull llama3.2:1b
+ollama run llama3.2:1b
+curl -X POST "http://localhost:8000/greet" -d '{"username": alice}'
+clear
+cd CC_Home
+cd HW2/
+clear
+cd ChatbotAPI/
+ls
+docker compose up -d
+docker compose up -d
+ollama --help\
+ollama --help
+systemctl stop ollama
+curl -X POST "http://localhost:8000/ai/greet" -d '{"username": "alice"}'
+curl -X POST "http://localhost:8000/ai/greet" -d {"username": "alice"}
+curl -X POST "http://localhost:8000/ai/greet" -H "Content-Type: application/json" -d '{"username": "alice"}'
+sudo systemctl disable ollama
+docker compose down
+docker compose up -d
+curl -X POST "http://localhost:8000/ai/greet" -H "Content-Type: application/json" -d '{"username": "alice"}'
+docker compose down
+docker compose down
+clear
+cd
+fastfetch
+clear
+cd git/sky11fca.github.io/
+ls
+code .
+cd my_ikea/
+ls
+touch furniture.html bathroom.html garden.html electricity.html device.html
+cd pub/persistance/
+ls
+touch bathroom.json garden.json electricity.json device.json
+cd git/CC_Homeworks/HW2/
+ls
+cd AuthenticationService/
+cd CC_Hw
+cd CC_H
+cd HW2/ChatbotAPI/
+docker compose up -d
+docker compose up -d
+cd CC_H
+cd HW2/
+cd PhpApi/
+ls
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose down 
+docker compose down
+cd git/CC_Homeworks/HW2/
+ls
+code .
+ls
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+clear
+exit
+ls
+chmod +x build.sh
+./build.sh
+curl -X POST "http://localhost:8000/ai/greet" -H "Content-Type: application/json" -d '{"username": "alice"}'
+ping google.com
+clear
+cd
+cd /
+cd
+fastfetch
+clear
+ping google.com
+exit
+sudo du -xhd 1 /
+sudo du -xhd 1 / | sort -h
+bash
+neofetch
+clear
+cd git/CC_Homeworks/HW2/
+ls
+docker images list
+docker image list
+./build.sh
+exit
+exit
+cd git/CC_work/
+mkdir WEEK6 WEEK8
+code .
+cd ..
+cd FeelingFine/
+ls
+cd WebApi/
+ls
+code .
+sudo pacman -Syu
+clear
+cd WebApi/
+clear
+ls
+clear
+cd
+clear
+paru -Sua
+cd git/CC_Homeworks/HW2/
+ls
+code .
+clear
+sudo pacman -Syu
+clear
+ls
+./build.sh
+ls
+code .
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+ls
+clear
+ollama list
+exit
+ollama serve
+clear
+ls
+clear
+ll
+v dotfiles/.config/nushell/config.nu
+clear
+ll
+v dotfiles/.config/nushell/config.nu
+clear
+ls | to json 
+ls -la | to json 
+ls -la | to html 
+ls -la | to csv
+ls --help
+clear
+cd Documents/
+ls
+touch something.json
+v something.json
+something.json | from json
+cat something.json | from json
+cd git/cg_labs/
+ls
+code .
+clear
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+cd git/FeelingFine/
+ls
+git add .
+git commit -m "User Authentication"
+git push
+cp ~/Downloads/DESIGN.md WebApi/WebApi/
+ls
+ls WebApi/WebApi/
+exit
+paru -Sua
+exit
+sudo pacman -Syu
+systemctl status ollama
+systemctl enable ollama --now
+sudo systemctl disable ollama
+reboot
+cd Feel
+cd PythonAI/
+ls\
+ls
+v
+v smt.txt
+ls
+clear
+exit
+docker compose up -d
+docker compose down
+docker compose up -d
+cd Feel
+cd PythonAI/
+ls
+docker compose up -d
+docker compose down
+clear
+cd Feel
+cd PythonAI/
+ls
+cd Feel
+cd DotnetApi/
+cd PythonAI/
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+cd .microsoft/usersecrets/a0636cef-9faf-4806-9107-c29b49814747/secrets.json
+cat .microsoft/usersecrets/a0636cef-9faf-4806-9107-c29b49814747/secrets.json
+docker compose down
+docker compose up -d
+docker compose up -d
+docker compose down
+docker compose up -d
+ls
+clear
+reboot
+cd Feel
+cd PythonAI/
+cd DotnetApi/
+docker compose up -d
+docker compose up -d
+docker compose down
+docker compose down
+docker compose up -d
+docker compose up -d
+docker compose down
+docker compose down
+systemctl enable ollama --now
+cd Feel
+cd PythonAI/
+cd Feel
+cd DotnetApi/
+ls
+code ..
+ls
+docker compose up -d
+systemctl disable ollama
+systemctl stop ollama
+docker compose up -d\
+docker compose up -d
+docker compose down
+docker compose up -d
+ip a
+docker compose down
+docker compose up -d
+curl -X POST "http://localhost:8000/ai/review" -h "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it",<\n>  "submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review" -h "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose down
+docker compose down
+sudo systemctl enable ollama --now
+sudo pacman -Rsn ollama-cuda
+reboot
+sudo systemctl disable mariadb
+sudo systemctl stop mariadb
+clear
+cd Feel
+ls
+git add .
+git commit -m "Major UI redesign"
+git push
+cd git/FeelingFine/
+ls
+code .
+ls
+docker compose up -d
+systemctl stop ollama
+systemctl disable ollama
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review/" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose down
+docker compose up -d
+curl -v -X POST "http://localhost:8000/ai/review/" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -v -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose down
+htop
+docker compose up -d
+curl -v -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+ping localhost:8000
+cleat
+clear
+docker compose down
+cd git/FeelingFine/
+git add .
+git commit -m "Attempt to containerize"
+git push
+clear
+exit
+sudo pacman -Syu
+cd Feel
+ls
+docker compose up -d --build
+ls
+code .
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+clear
+docker compose down
+docker compose up -d --build --force-recreate
+docker compose down
+docker image list
+reboot
+cd Feel
+docker compose up -d
+docker compose down
+docker builder prune --all
+exit
+docker compose up -d
+code .
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d --no-cache
+docker compose up -d --build --no-cache
+docker compose up -d --build
+clear
+grep "localhost:5160" .
+grep -r "localhost:5160" .
+clear
+docker compose down
+docker system prune
+clear
+fastfetch
+clear
+exit
+cd Feel
+docker compose up -d
+docker compose down
+code .
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+clear
+cd Feel
+ls
+clear
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+clear
+cd Feel
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+docker builder prune --all
+docker compose up -d --build
+docker compose down
+clear
+exit
+paru -Sua
+clear
+sudo pacman -S distrobox
+clear
+exit
+reboot
+ls
+clear
+exit
+wal -i `walls/Crazy Wallpaper.png`
+clear
+exit
+ls
+clear
+exit
+v dotfiles/.config/alacritty/alacritty.toml
+cava
+cd Fee
+ls
+code .
+sudo pacman -Syu
+paru -Sua
+sudo pacman -Syu
+cd git/cg_labs/
+l
+ls
+cd git/cg_labs/
+ls
+git add .
+git commit -m "CG Homework2"
+git push
+sudo pacman -Syu
+clear
+exit
+nvidia-smi
+lspic
+lspci
+clear
+ls
+clear
+exit
+cd git/sky11fca.github.io/
+ls
+code .
+curl -X GET "http://localhost:8080"
+clear
+exit
+cd git/PhpPrimer/
+ls
+cd WebUI/
+ls
+code .
+cd git/
+ls
+git clone git@github.com:MeraruIoanLucian/UnemploymentVisualiser.git
+clear
+exit
+sudo pacman -Syu
+clear
+exit
+sudo pacman -Syu
+paru -Sua
+clear
+exit
+reboot
+cd Feel
+docker compose up -d --build
+curl -X POST "http://localhost:8000/ai/review/" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review/" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}' | jq
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}' | jq
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+code .
+docker compose down
+docker compose up -d --build
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose  --help
+docker builder prune --all
+docker compose down
+docker compose up -d --build
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose down
+exit
+cd Feel
+ls
+code .
+ls
+clear
+docker compose up -d
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+docker compose down
+docker compose up -d --build
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}'
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}' | jq
+clear
+exit
+cd Feel
+ls
+docker compose down
+docker compose up -d --build
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}' | jq
+clear
+docker compose down
+docker compose up -d
+cd Feel
+docker compose up -d
+curl -X POST "http://localhost:8000/ai/review/" -H "Content-Type: application/json" -d '{"raw_text": "This is great! I really like your services. The UI is so intuitive even a baby can use it","submitted_on": "google"}' | jq
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+code .
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+cd Feel
+code .
+cd Feel
+ls
+code .
+clear
+docker compose up -d
+docker compose down
+clear
+exit
+cd Feel
+ls
+code .
+sudo pacman -S azure-cli
+az --version
+az --help
+az login
+clear
+sudo pacman -S github-cli
+gh --help
+gh auth
+gh auth login
+gh auth status
+clear
+ls
+clear
+htop
+poweroff
+paru -Sua
+sudo pacman -Syu
+gc --help
+clear
+clear
+exit
+pacman -Ss gcloud
+pacman -Ss cloud
+clear
+cd Downloads/
+ls
+tar -xvf google-cloud-cli-linux-x86_64.tar.gz
+ls
+cd google-cloud-sdk/
+ls
+bash
+exit
+ls
+cd
+ls
+v .tmux.conf
+exit
+ls
+docker compose up -d --build
+clear
+docker compose up -d --build
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
+docker compose up -d --build
+docker compose down
