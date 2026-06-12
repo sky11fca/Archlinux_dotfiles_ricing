@@ -5,47 +5,50 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+# export LESS="$LESS -Q"
+export EDITOR="nvim"
+export MANPAGER="nvim +Man!"
+
+alias ed='ed -p "-> "'
+
+alias ls='ls -1 --color=auto --group-directories-first'
 alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
-alias hypr='start-hyprland'
-
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
+PS1='\$ '
 
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-alias ls='eza --color=auto --icons=auto'
-alias gdb='gdb --tui'
-alias grep='rg --color=auto'
-alias cat='bat'
-#alias cd='z'
 alias v='nvim'
+alias sv='sudo nvim'
+alias vi='nvim'
+alias svi='sudo nvim'
+alias edit='nvim'
+
+alias mv="mv -i"
+alias cp="cp -i"
+alias ln="ln -i"
+alias rm="rm -I --preserve-root"
+
+alias chmod="chmod --preserve-root"
+alias chown="chown --preserve-root"
+alias chgrp="chgrp --preserve-root"
+
+alias ll='ls -lah --color=auto --group-directories-first'
+alias l='ls -lh --color=auto --group-directories-first'
+
 alias neofetch='fastfetch'
-alias ll='eza -lah --git --icons=auto'
-#alias f='"$(fzf)"'
-#alias swaylock='swaylock --color #000000'
-alias clock='tty-clock -sctD'
-alias l='eza -lh --git --icons=auto'
-alias lst='eza -lhT --icons=auto'
-alias fzf='fzf --border=sharp --preview="cat {}"'
-#alias pp='power_optionsv2 $(echo -e "Shutdown\nReboot\nLock\nLogout" | fzf)'
-#alias music='mpv "$(find ~/Music/ -type f | fzf )" --loop --no-audio-display '
-#alias doc='nvim $(find ~/Documents/ -type f | fzf)'
-alias dotf='cd $DOTFILES'
-alias sudo='doas'
-#alias notes='nvim ~/Notes/'
-alias pic='kitten icat --align=left'
-alias weather='curl wttr.in'
 
-eval "$(zoxide init --cmd cd bash)"
+# Helpful aliases
 
-eval "$(starship init bash)"
+alias mkdir="mkdir -pv"
+alias ping="ping -c 5"
+# Added by Antigravity CLI installer
+export PATH="/home/mrbogdanovich/.local/bin:$PATH"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/mrbogdanovich/google-cloud-sdk/path.bash.inc' ]; then . '/home/mrbogdanovich/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/mrbogdanovich/google-cloud-sdk/completion.bash.inc' ]; then . '/home/mrbogdanovich/google-cloud-sdk/completion.bash.inc'; fi
+[ -f "/home/mrbogdanovich/.ghcup/env" ] && . "/home/mrbogdanovich/.ghcup/env" # ghcup-env
