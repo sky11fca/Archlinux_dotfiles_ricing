@@ -11,13 +11,14 @@ export MANPAGER="nvim +Man!"
 
 alias ed='ed -p "-> "'
 
+alias echo='echo -e'
+
 alias ls='ls -1 --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-#PS1='[\u@\h \W]\$ '
-PS1='\$ '
+PS1='[\u@\h \W]\$ '
 
 alias ..='cd ..'
 alias ...='cd ../..'
